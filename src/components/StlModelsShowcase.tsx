@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { stlCatalog, type StlModel } from "@/data/stl-catalog";
 import { getStlDisplayTitle } from "@/data/stl-titles-pt";
 import { features } from "@/config/features";
+import { stlAssetUrl } from "@/lib/stl-assets";
 import { cn } from "@/lib/utils";
 
 type PriceFilter = "all" | "free" | "paid";
@@ -130,10 +131,10 @@ export function StlModelsShowcase() {
                 className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated text-left transition-colors hover:border-brand/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
                 <div className="relative aspect-[16/10] overflow-hidden bg-surface-muted">
-                  {filesLive && m.previewImage ? (
+                  {filesLive && m.previewImage && stlAssetUrl(m.previewImage) ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
-                      src={m.previewImage}
+                      src={stlAssetUrl(m.previewImage)!}
                       alt=""
                       className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
                       loading="lazy"
@@ -202,10 +203,14 @@ export function StlModelsShowcase() {
               </button>
             </div>
 
-            {filesLive && selected.previewImage && (
+            {filesLive && selected.previewImage && stlAssetUrl(selected.previewImage) && (
               <div className="mt-4 overflow-hidden rounded-xl border border-border">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={selected.previewImage} alt="" className="max-h-48 w-full object-cover" />
+                <img
+                  src={stlAssetUrl(selected.previewImage)!}
+                  alt=""
+                  className="max-h-48 w-full object-cover"
+                />
               </div>
             )}
 
@@ -301,17 +306,20 @@ export function StlModelsShowcase() {
                     <p className="mt-2 text-xs text-emerald-400">{t("unlockDemo")}</p>
                   ) : null}
                   <ul className="mt-3 space-y-2">
-                    {selected.stlFiles.map((file) => (
+                    {selected.stlFiles.map((file) => {
+                      const href = stlAssetUrl(file) ?? file;
+                      return (
                       <li key={file}>
                         <a
-                          href={file}
-                          download
+                          href={href}
+                          download={fileNameFromPath(file)}
                           className="block rounded-lg border border-border bg-surface-elevated px-3 py-2 text-sm text-brand-light transition-colors hover:border-brand/40"
                         >
                           {t("download")}: {fileNameFromPath(file)}
                         </a>
                       </li>
-                    ))}
+                      );
+                    })}
                     {selected.stlFiles.length === 0 ? (
                       <li className="text-sm text-text-muted">{t("empty")}</li>
                     ) : null}

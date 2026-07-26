@@ -1,8 +1,8 @@
 /**
  * Feature flags for go-live.
- * stlFilesPublished=false → catalog UI stays, downloads/previews from /models/3d are off
- * (files are too heavy for first Vercel deploy; enable after CDN/R2).
+ * stlFilesPublished=true → previews/downloads use NEXT_PUBLIC_STL_BASE_URL (R2)
+ * or local `/models/3d` when the env is empty (dev with files on disk).
  */
 export const features = {
-  stlFilesPublished: false,
+  stlFilesPublished: true,
 } as const;

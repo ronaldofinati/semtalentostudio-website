@@ -40,7 +40,7 @@ Atualizado: 2026-07-26.
 | Cadastro de usuários | Não necessário agora |
 | Página de privacidade | Feito (`/privacidade`) |
 | robots / sitemap | Feito |
-| `public/models/3d` | Opção **A** — fora do 1º deploy |
+| `public/models/3d` | R2 — ver `docs/stl-r2.md` |
 
 ---
 
@@ -84,30 +84,19 @@ Atualizado: 2026-07-26.
 
 ---
 
-## FASE 2 — Arquivos pesados (decisão obrigatória)
+## FASE 2 — Arquivos pesados (STLs)
 
-O site tem ~**1,8 GB** em `public/models/3d`. A Vercel (plano gratuito) **não aguenta** isso de forma confortável no deploy.
+O site tem ~**1,8 GB** em `public/models/3d`. A Vercel Hobby **não** leva isso no deploy.
 
-Escolha **uma** opção (recomendado: A):
+**Decisão:** Cloudflare **R2** (site leve na Vercel; arquivos no CDN).
 
-### Opção A — Publicar o site agora **sem** os STL no deploy (mais rápido)
+Passo a passo: **`docs/stl-r2.md`**.
 
-- Modelos 3D ficam “em breve” ou link externo depois.
-- Site, educação, portfolio, ferramentas leves sobem já.
-- Depois migrar STLs para Cloudflare R2 / Bunny.
-
-### Opção B — Hospedar STLs fora (R2 / Bunny) e site na Vercel
-
-- Site leve na Vercel.
-- Downloads 3D em outro domínio/CDN.
-- Um pouco mais de configuração (eu monto o passo a passo).
-
-### Opção C — VPS/Node (Hostinger/Contabo)
-
-- Cabe tudo numa máquina só.
-- Mais manutenção (atualizações, SSL, reinícios) — pior para leigo.
-
-**Você responde neste chat:** `A`, `B` ou `C`.
+Resumo:
+1. Bucket R2 + URL pública (`files.semtalentostudio.com` ou `*.r2.dev`)
+2. Sync: `node scripts/sync-stl-to-r2.mjs`
+3. Vercel env: `NEXT_PUBLIC_STL_BASE_URL`
+4. Flag `stlFilesPublished: true` (já no código)
 
 ---
 
