@@ -331,63 +331,79 @@ function DesktopDropdown({ item }: { item: NavItem }) {
   );
 }
 
-function MobileNavItem({ item }: { item: NavItem }) {
+function MobileNav() {
   const t = useTranslations("nav");
-  const [open, setOpen] = useState(false);
-  const isTools = item.key === "tools";
-
-  if (!item.children?.length) {
-    return (
-      <Link
-        href={item.href}
-        prefetch={false}
-        className="shrink-0 rounded-full px-3 py-1.5 text-xs text-text-muted transition-colors hover:bg-surface-elevated hover:text-text"
-      >
-        {t(item.key)}
-      </Link>
-    );
-  }
+  const [openKey, setOpenKey] = useState<NavItem["key"] | null>(null);
+  const openItem = navItems.find((item) => item.key === openKey);
+  const isTools = openItem?.key === "tools";
 
   return (
-    <div className="relative shrink-0">
-      <button
-        type="button"
-        className={cn(
-          "inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs text-text-muted transition-colors",
-          "hover:bg-surface-elevated hover:text-text",
-          open && "bg-surface-elevated text-text",
-        )}
-        aria-expanded={open}
-        onClick={() => setOpen((v) => !v)}
-      >
-        {t(item.key)}
-        <span className={cn("text-[0.6rem] transition-transform", open && "rotate-180")} aria-hidden>
-          ▾
-        </span>
-      </button>
-      {open && (
+    <nav className="border-t border-border/40 md:hidden" aria-label="Principal mobile">
+      {/* Overflow só na fileira de pills — o submenu fica fora e não é cortado. */}
+      <div className="flex gap-1 overflow-x-auto px-4 py-2">
+        {navItems.map((item) => {
+          if (!item.children?.length) {
+            return (
+              <Link
+                key={item.key}
+                href={item.href}
+                prefetch={false}
+                className="shrink-0 rounded-full px-3 py-1.5 text-xs text-text-muted transition-colors hover:bg-surface-elevated hover:text-text"
+                onClick={() => setOpenKey(null)}
+              >
+                {t(item.key)}
+              </Link>
+            );
+          }
+
+          const open = openKey === item.key;
+          return (
+            <button
+              key={item.key}
+              type="button"
+              className={cn(
+                "inline-flex shrink-0 items-center gap-1 rounded-full px-3 py-1.5 text-xs text-text-muted transition-colors",
+                "hover:bg-surface-elevated hover:text-text",
+                open && "bg-surface-elevated text-text",
+              )}
+              aria-expanded={open}
+              aria-controls={`mobile-submenu-${item.key}`}
+              onClick={() => setOpenKey((k) => (k === item.key ? null : item.key))}
+            >
+              {t(item.key)}
+              <span
+                className={cn("text-[0.6rem] transition-transform", open && "rotate-180")}
+                aria-hidden
+              >
+                ▾
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {openItem?.children?.length ? (
         <div
-          className={cn(
-            "absolute left-0 top-full z-50 mt-1 rounded-xl border border-border bg-surface-elevated shadow-lg shadow-black/40",
-            isTools ? "w-[min(92vw,18rem)]" : "min-w-[12rem] py-1.5",
-          )}
+          id={`mobile-submenu-${openItem.key}`}
+          role="menu"
+          className="border-t border-border/40 bg-surface-elevated px-2 py-2"
         >
           {isTools ? (
             <ToolsMegaMenu
-              items={item.children}
-              onNavigate={() => setOpen(false)}
+              items={openItem.children}
+              onNavigate={() => setOpenKey(null)}
               compact
             />
           ) : (
             <NavChildrenList
-              items={item.children}
-              onNavigate={() => setOpen(false)}
+              items={openItem.children}
+              onNavigate={() => setOpenKey(null)}
               compact
             />
           )}
         </div>
-      )}
-    </div>
+      ) : null}
+    </nav>
   );
 }
 
@@ -419,14 +435,7 @@ export function Header() {
         </div>
       </div>
 
-      <nav
-        className="flex gap-1 overflow-x-auto border-t border-border/40 px-4 py-2 md:hidden"
-        aria-label="Principal mobile"
-      >
-        {navItems.map((item) => (
-          <MobileNavItem key={item.key} item={item} />
-        ))}
-      </nav>
+      <MobileNav />
     </header>
   );
 }
