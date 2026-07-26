@@ -1,5 +1,6 @@
 /**
- * Gera public/og.jpg (1200x630) — logo + nome para WhatsApp/Facebook/etc.
+ * Gera public/og.jpg no visual do hero da home
+ * (fundo escuro, grade, glow, logo grande, tagline).
  * Uso: node scripts/generate-og.mjs
  */
 import fs from "node:fs";
@@ -12,7 +13,24 @@ const outPath = path.join(root, "public", "og.jpg");
 
 const W = 1200;
 const H = 630;
-const LOGO = 340;
+const LOGO = 380;
+const GRID = 48;
+
+function buildGridSvg() {
+  const lines = [];
+  const stroke = "rgba(169,171,174,0.12)";
+  for (let x = 0; x <= W; x += GRID) {
+    lines.push(
+      `<line x1="${x}" y1="0" x2="${x}" y2="${H}" stroke="${stroke}" stroke-width="1"/>`,
+    );
+  }
+  for (let y = 0; y <= H; y += GRID) {
+    lines.push(
+      `<line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="${stroke}" stroke-width="1"/>`,
+    );
+  }
+  return lines.join("");
+}
 
 const logoPng = await sharp(logoPath)
   .resize(LOGO, LOGO, {
@@ -22,7 +40,7 @@ const logoPng = await sharp(logoPath)
   .png()
   .toBuffer();
 
-const background = await sharp({
+const base = await sharp({
   create: {
     width: W,
     height: H,
@@ -33,37 +51,55 @@ const background = await sharp({
   .png()
   .toBuffer();
 
-const overlaySvg = Buffer.from(`
+const atmosphere = Buffer.from(`
 <svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="g" cx="50%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#c8a96e" stop-opacity="0.14"/>
-      <stop offset="55%" stop-color="#a9abae" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    <radialGradient id="top" cx="50%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#161616"/>
+      <stop offset="65%" stop-color="#0a0a0a" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#c8a96e" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#c8a96e" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#c8a96e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gridFade" cx="50%" cy="42%" r="68%">
+      <stop offset="15%" stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask">
+      <rect width="100%" height="100%" fill="url(#gridFade)"/>
+    </mask>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f5f5"/>
+      <stop offset="50%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#c4c6c9"/>
+    </linearGradient>
   </defs>
-  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect width="100%" height="100%" fill="url(#top)"/>
+  <rect width="100%" height="100%" fill="url(#glow)"/>
+  <g opacity="0.45" mask="url(#gridMask)">
+    ${buildGridSvg()}
+  </g>
   <text
     x="600"
-    y="545"
+    y="548"
     text-anchor="middle"
     font-family="Segoe UI, Arial, Helvetica, sans-serif"
-    font-size="54"
+    font-size="52"
     font-weight="600"
-    letter-spacing="-0.5"
-  >
-    <tspan fill="#f5f5f5">SemTalento</tspan><tspan fill="#a9abae"> Studio</tspan>
-  </text>
-  <rect x="560" y="568" width="80" height="3" rx="1.5" fill="#c8a96e"/>
+    letter-spacing="-0.8"
+    fill="url(#title)"
+  >Sem Talento Studio</text>
 </svg>
 `);
 
 const logoLeft = Math.round((W - LOGO) / 2);
-const logoTop = 95;
+const logoTop = 70;
 
-await sharp(background)
+await sharp(base)
   .composite([
-    { input: overlaySvg, top: 0, left: 0 },
+    { input: atmosphere, top: 0, left: 0 },
     { input: logoPng, top: logoTop, left: logoLeft },
   ])
   .jpeg({ quality: 92, mozjpeg: true })
