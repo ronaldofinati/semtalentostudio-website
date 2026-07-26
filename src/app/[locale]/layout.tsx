@@ -29,6 +29,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         routing.locales.map((loc) => [loc, `/${loc}`]),
       ),
     },
+    openGraph: {
+      type: "website",
+      locale,
+      url: `https://semtalentostudio.com.br/${locale}`,
+      siteName: "SemTalento Studio",
+      title: t("title"),
+      description: t("description"),
+      images: [
+        {
+          url: "/og.jpg",
+          width: 1200,
+          height: 630,
+          alt: "SemTalento Studio",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og.jpg"],
+    },
   };
 }
 

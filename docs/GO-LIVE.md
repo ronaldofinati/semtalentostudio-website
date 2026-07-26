@@ -17,6 +17,7 @@ Atualizado: **2026-07-26** (noite) — go-live principal concluído; pendências
 | Domínio `.com` | Na Cloudflare — **redirect → `.com.br` ainda pendente** |
 | Contato SMTP (Zoho) | OK em produção (vars na Vercel) |
 | Analytics | Vercel Web Analytics ligado |
+| Prévia de link (WhatsApp/Facebook) | `public/og.jpg` + Open Graph no layout |
 | Privacidade / robots / sitemap | OK |
 | STLs (~1,8 GB) | Cloudflare R2 — ver `docs/stl-r2.md` |
 | Mobile (submenus + overflow cards) | Corrigido e publicado |

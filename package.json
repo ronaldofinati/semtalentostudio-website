@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sync:stl-r2": "node scripts/sync-stl-to-r2.mjs"
+    "sync:stl-r2": "node scripts/sync-stl-to-r2.mjs",
+    "generate:og": "node scripts/generate-og.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
