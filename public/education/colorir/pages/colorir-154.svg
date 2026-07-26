@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<circle cx="70" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="397" y="521.5" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black, Arial, sans-serif" font-size="340" fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round">8</text><polygon points="197,781.5 206.40456403667957,808.5557280900008 235.04226065180615,809.139320225002 212.21690426072246,826.4442719099992 220.51141009169893,853.860679774998 197,837.5 173.4885899083011,853.860679774998 181.78309573927754,826.4442719099992 158.95773934819385,809.1393202250022 187.59543596332043,808.5557280900008" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><polygon points="597,781.5 606.4045640366795,808.5557280900008 635.0422606518061,809.139320225002 612.2169042607225,826.4442719099992 620.511410091699,853.860679774998 597,837.5 573.488589908301,853.860679774998 581.7830957392775,826.4442719099992 558.9577393481939,809.1393202250022 587.5954359633205,808.5557280900008" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

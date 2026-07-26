@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "title": "SemTalento Studio",
+    "description": "设计即思维方式——鞋类、产品与数字工具，从概念到真实使用。"
+  },
+  "nav": {
+    "home": "首页",
+    "projects": "项目",
+    "tools": "工具",
+    "content": "内容",
+    "about": "关于",
+    "contact": "联系",
+    "viewAll": "查看全部",
+    "education": "教育"
+  },
+  "common": {
+    "viewProjects": "查看项目",
+    "getInTouch": "聊聊？",
+    "learnMore": "了解更多",
+    "comingSoon": "即将推出",
+    "allProjects": "全部项目",
+    "backToProjects": "返回项目",
+    "watchOnYoutube": "在 YouTube 观看",
+    "subscribe": "订阅频道",
+    "sendMessage": "发送消息",
+    "notFound": "页面未找到",
+    "projectImagesSoon": "项目图片即将上线",
+    "locale": {
+      "pt": "Português",
+      "en": "English",
+      "es": "Español",
+      "zh": "中文"
+    },
+    "zoomImage": "放大图片",
+    "closeZoom": "关闭",
+    "previousImage": "上一张",
+    "nextImage": "下一张",
+    "zoomHint": "点击放大",
+    "ctaDesign": "设计",
+    "ctaTools": "工具",
+    "ctaEducation": "教育"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Sem Talento Studio",
+      "subtitle": "如果你来到这里，是因为你在寻找更多。",
+      "description": "我们的工作，是帮你把这份渴望提炼出来，转化为解决方案——无论是概念、设计、产品，还是尚不存在的工具。"
+    },
+    "presentation": {
+      "title": "工作室影像呈现",
+      "categories": {
+        "design": "设计",
+        "educacao": "教育",
+        "ferramentas": "工具"
+      },
+      "play": "开始播放",
+      "pause": "暂停",
+      "previous": "上一张",
+      "next": "下一张",
+      "goToSlide": "跳转到幻灯片",
+      "muteMusic": "静音",
+      "unmuteMusic": "开启音乐",
+      "enableSound": "点击开启声音",
+      "musicCredit": "音乐：巴赫 — C大调前奏曲（公有领域）",
+      "expand": "展开演示",
+      "close": "关闭",
+      "hint": "想了解更多我们的思考方式？",
+      "aboutLink": "阅读关于",
+      "slides": {
+        "intro": {
+          "title": "如果你来到这里，是因为你在寻找更多。",
+          "caption": "Sem Talento Studio 致力于把这份渴望提炼出来，转化为具体的解决方案。"
+        },
+        "footwear": {
+          "title": "有意图的鞋类设计",
+          "caption": "从休闲到注塑鞋——建模、渲染与多样化商业款式。"
+        },
+        "sport": {
+          "title": "运动与性能",
+          "caption": "运动鞋与高性能研究，兼具技术与视觉表达。"
+        },
+        "retro": {
+          "title": "经典再诠释",
+          "caption": "比例、外底与细节——以当代视角演绎复古设计。"
+        },
+        "product": {
+          "title": "产品与物件",
+          "caption": "电子产品、工具与工业体量建模，可持续深化。"
+        },
+        "industrial": {
+          "title": "硬表面与细节",
+          "caption": "工具与零件——形态与可制造性的研究。"
+        },
+        "inflatables": {
+          "title": "充气设计",
+          "caption": "帐篷、玩具与促销结构——体积建模、渲染及用于生产或活动的展示。"
+        },
+        "kids": {
+          "title": "童装与系列",
+          "caption": "多款模型，一条叙事——从单双展示到完整场景。"
+        },
+        "web": {
+          "title": "有目的的数字设计",
+          "caption": "网站、商店与工具，支撑品牌在现实世界中运转。"
+        },
+        "productFan": {
+          "title": "尺度中的物件",
+          "caption": "家用与工业体量，以使用意图建模。"
+        },
+        "inflatablesMario": {
+          "title": "角色与体量",
+          "caption": "促销充气物，具备品牌存在感与远距离可读性。"
+        },
+        "webMarketplace": {
+          "title": "数字平台",
+          "caption": "连接目录、销售与运营的界面。"
+        },
+        "educationQuiz": {
+          "title": "在实践中学习",
+          "caption": "教育模拟器——题目、节奏与反馈，真正助力学习。"
+        },
+        "educationLab": {
+          "title": "实验室与探索",
+          "caption": "化学与数字实验，让科学更接近学习者。"
+        },
+        "models3d": {
+          "title": "可打印模型",
+          "caption": "可下载的 STL 库——从花瓶到电子外壳。"
+        },
+        "toolsSoft": {
+          "title": "定制软件",
+          "caption": "源于真实运营、随业务演进的数字工具。"
+        },
+        "pillars": {
+          "title": "提取 · 联结 · 转化",
+          "caption": "倾听渴望，连接不同领域，推进到可用的成果。"
+        },
+        "cta": {
+          "title": "聊聊？",
+          "caption": "告诉我们你在寻找什么——概念、产品，或尚不存在的工具。"
+        },
+        "outro": {
+          "title": "Sem Talento Studio",
+          "caption": "www.semtalentostudio.com.br"
+        }
+      }
+    },
+    "featured": {
+      "title": "精选项目",
+      "subtitle": "精选鞋履、产品、充气、网站与软件作品"
+    },
+    "tools": {
+      "title": "工具",
+      "subtitle": "为业务打造的定制数字方案",
+      "card": {
+        "tag": "软件",
+        "title": "软件与数字解决方案",
+        "description": "我们打造定制系统、自动化与数字体验——从真实运营中诞生、并随业务共同演进的工具。"
+      }
+    },
+    "content": {
+      "title": "内容",
+      "subtitle": "",
+      "comingSoon": "即将开通 YouTube 频道。"
+    },
+    "cta": {
+      "title": "一起合作吧",
+      "subtitle": "鞋类设计、产品、充气结构与网站定制项目。"
+    },
+    "education": {
+      "title": "教育",
+      "subtitle": "从一开始学习，就会改变之后的路。",
+      "body1": "教育不是附属品，而是根基。当好奇心遇上实践，孩子与成人都能培养专注、逻辑与自信决策的能力。",
+      "body2": "在 Sem Talento Studio，更易获取或免费的教育工具是我们社会责任的一部分：把知识带到想学习的人面前，与做设计时同样认真。",
+      "cta": "探索教育"
+    }
+  },
+  "projects": {
+    "title": "项目",
+    "subtitle": "鞋履、产品、充气物与网站设计作品集",
+    "categories": {
+      "all": "全部",
+      "footwear": "鞋类",
+      "product": "产品",
+      "inflatable": "充气",
+      "web": "网页",
+      "software": "软件",
+      "3d": "3D"
+    },
+    "items": {
+      "footwear-design": {
+        "title": "鞋类设计",
+        "description": "从概念到可生产 3D 模型——概念开发、原型制作与打样。",
+        "category": "鞋类",
+        "galleryTitle": "精选开发项目",
+        "gallerySubtitle": "3D 建模与影棚渲染 — 可复现基础，便于在 Rhino 或 KeyShot 中继续精修。",
+        "products": [
+          {
+            "id": "urban-canvas",
+            "title": "Urban Canvas 70",
+            "tag": "休闲",
+            "description": "经典低帮帆布运动鞋 — 侧面、透视、俯视图与鞋带/鞋眼细节。建模一致，可继续优化渲染。"
+          },
+          {
+            "id": "le-cheval",
+            "title": "Le Cheval",
+            "tag": "复古",
+            "description": "复古运动风格鞋款 — 侧面、透视与鞋底视图。围绕比例、外底与细节的经典运动设计研究。"
+          },
+          {
+            "id": "adidas",
+            "title": "Adidas",
+            "tag": "运动",
+            "description": "运动鞋 — 建模、渲染与五张技术视图，工作室背景。"
+          },
+          {
+            "id": "sneaker-color-combo",
+            "title": "Sneaker Color Combo",
+            "tag": "运动",
+            "description": "同一款运动鞋的配色研究 — 四套配色方案及黑白单色版本。工作室渲染。"
+          },
+          {
+            "id": "flux-stride",
+            "title": "Flux Stride Pro",
+            "tag": "运动",
+            "description": "性能生活方式运动鞋 — 白色网面、黑色拼接、侧底连续外底。侧面、透视、俯视与鞋底视图。"
+          },
+          {
+            "id": "sapatilha",
+            "title": "平底鞋",
+            "tag": "休闲",
+            "description": "平底鞋 — 工作室背景产品视图。"
+          },
+          {
+            "id": "sandalia-salto",
+            "title": "高跟凉鞋",
+            "tag": "女款",
+            "description": "女式高跟凉鞋 — 工作室背景产品视图。"
+          },
+          {
+            "id": "sapato-salto",
+            "title": "Sapato Salto",
+            "tag": "女款",
+            "description": "女式高跟鞋 — 侧面、透视、俯视、鞋底与细节，工作室背景。"
+          },
+          {
+            "id": "injection-shoes",
+            "title": "注塑鞋",
+            "tag": "注塑",
+            "description": "注塑鞋款系列——靴、休闲、人字拖、凉鞋与平底鞋。面向量产的建模与渲染研究。"
+          },
+          {
+            "id": "country",
+            "title": "Country",
+            "tag": "休闲",
+            "description": "乡村风短靴 — 工作室背景产品视图。"
+          },
+          {
+            "id": "kids-playroom",
+            "title": "Petit Pas",
+            "tag": "童装",
+            "layout": "collection",
+            "description": "四款童鞋系列 — 男童运动鞋与凉拖、女童芭蕾平底鞋与凉鞋。主图为儿童房场景；缩略图各展示一双。"
+          }
+        ]
+      },
+      "product-design": {
+        "title": "产品设计",
+        "description": "注重造型、功能与可制造性的工业产品开发。",
+        "category": "产品",
+        "galleryTitle": "精选产品研究与模型",
+        "gallerySubtitle": "产品 3D 建模与渲染 — 概念、技术对象与造型研究，可继续发展为展示稿或原型。",
+        "products": [
+          {
+            "id": "celular",
+            "title": "Mobile Concept",
+            "tag": "科技",
+            "description": "移动设备建模与渲染研究 — 关注比例、表面质感与高端产品呈现。"
+          },
+          {
+            "id": "barraca",
+            "title": "Technical Tent",
+            "tag": "户外",
+            "description": "帐篷模型，包含主渲染与视图板 — 探索户外产品的结构、体量与展示方式。"
+          },
+          {
+            "id": "ferramentas",
+            "title": "Mechanical Tools",
+            "tag": "工具",
+            "description": "工具与部件集合 — 钳子、扳手、锤子与轮件，用于硬表面建模和技术细节研究。"
+          },
+          {
+            "id": "ventilador-caseiro",
+            "title": "Home Fan",
+            "tag": "家电",
+            "description": "紧凑型家用风扇概念 — 两个渲染版本，关注外壳、网罩与比例。"
+          },
+          {
+            "id": "diversos",
+            "title": "Assorted Studies",
+            "tag": "产品",
+            "description": "多种对象研究 — 包装、牙刷、微波炉、置物架、水壶与龙头，覆盖不同表面与尺度。"
+          },
+          {
+            "id": "ventilador-grande",
+            "title": "Large Fan",
+            "tag": "家电",
+            "description": "较大型风扇三张渲染 — 研究底座、立柱、扇叶与网罩，整体更稳重。"
+          }
+        ]
+      },
+      "inflatable-design": {
+        "title": "充气设计",
+        "description": "充气制品的创作、设计与建模——从帐篷、棚屋到玩具、气球与促销结构。我们处理充气体积、缝线与饰面细节、真实比例呈现，以及用于审批、生产或活动的视觉展示。",
+        "category": "充气",
+        "galleryTitle": "精选开发案例",
+        "gallerySubtitle": "三维建模、材质渲染与技术视图——从体积概念到可用于制造或组装的展示方案。",
+        "products": [
+          {
+            "id": "mario",
+            "title": "主题充气玩具 — Mario",
+            "tag": "玩具",
+            "description": "主题充气件，兼具趣味性与品牌识别 — 透视、侧面细节、户外场景、特写及用于生产的平面展开图。"
+          },
+          {
+            "id": "inflavel-medio",
+            "title": "中型结构",
+            "tag": "帐篷",
+            "description": "中型充气帐篷 — 阴影体积研究、外观视图与多种搭建方案。适用于展会、快闪活动与半永久使用。"
+          },
+          {
+            "id": "inflavel-grande",
+            "title": "大型结构",
+            "tag": "活动",
+            "description": "大型充气帐篷——阴影渲染、透视、内部视图与航拍视角。为活动中的视觉冲击与人流动线而设计。"
+          },
+          {
+            "id": "balao",
+            "title": "立体气球",
+            "tag": "促销",
+            "description": "促销充气气球 — 材质研究、多级渲染与体积呈现，从无贴图模型到可用于活动或零售的最终展示。"
+          },
+          {
+            "id": "dino",
+            "title": "充气恐龙",
+            "tag": "玩具",
+            "description": "恐龙造型充气玩具 — 阴影、无材质渲染、成品与另一侧视图。角色感、比例与童趣，适用于乐园与活动场景。"
+          },
+          {
+            "id": "inflatable-course",
+            "title": "想学习自己建模充气产品吗？",
+            "tag": "充气课程",
+            "description": "我们提供完整的充气建模课程 — 从技术 3D、材质渲染到裁片平面展开与生产文件。适合从零掌握充气体积、缝线、真实比例与专业展示，直至可投产文件。",
+            "ctaHref": "/contato"
+          }
+        ]
+      },
+      "web-design": {
+        "title": "网站与网络平台",
+        "description": "专业网站、在线商店与定制网络工具——从作品集到电商。",
+        "category": "网页",
+        "examplesTitle": "我们可以构建的示例",
+        "exampleGroups": [
+          {
+            "label": "专业 — 深色模式",
+            "examples": [
+              {
+                "title": "作品集 + 个人品牌",
+                "description": "多语言网站，含项目、视频与联系——如 SemTalento Studio。"
+              },
+              {
+                "title": "鞋类在线商店",
+                "description": "电商目录、尺码模拟器、测量表与产品预览。"
+              },
+              {
+                "title": "数字文件市场",
+                "description": "销售设计、3D模型、STL、模板与课程。"
+              },
+              {
+                "title": "产品落地页",
+                "description": "专注于鞋类、系列或工具发布的转化页面。"
+              },
+              {
+                "title": "现有商店嵌入组件",
+                "description": "可嵌入 Shopify、WooCommerce 或 VTEX 的尺码模拟器。"
+              },
+              {
+                "title": "B2B 企业网站",
+                "description": "为品牌、工厂与设计工作室展示服务与案例。"
+              }
+            ]
+          },
+          {
+            "label": "明亮清新",
+            "examples": [
+              {
+                "title": "浅色品牌作品集",
+                "description": "明亮优雅的作品集——适合时尚与设计品牌。"
+              },
+              {
+                "title": "极简精品店",
+                "description": "精致明亮的在线商店，轻盈的产品目录。"
+              }
+            ]
+          },
+          {
+            "label": "童趣活泼",
+            "examples": [
+              {
+                "title": "儿童尺码指南",
+                "description": "面向家长与儿童的友好尺码模拟器——柔和色彩与趣味界面。"
+              },
+              {
+                "title": "舞蹈学校 / 儿童鞋类",
+                "description": "为舞蹈学校、儿童鞋店或童装系列打造的彩色网站。"
+              }
+            ]
+          }
+        ]
+      },
+      "size-guide": {
+        "title": "软件 — 定制解决方案",
+        "description": "为业务开发网络工具、自动化与定制软件——集成、面板、数字流程与尚不存在的体验。从尺码模拟器到运营所需的一切。",
+        "category": "软件"
+      },
+      "labcad": {
+        "title": "LabCad",
+        "description": "即将推出：面向鞋业的新一体化 2D/3D CAD/CAM/CAE 系统。",
+        "category": "软件",
+        "introTitle": "LabCad",
+        "introBody": "即将推出：面向鞋业的 CAD/CAM/CAE。了解产品愿景并关注开发进展。",
+        "introContinue": "打开",
+        "introClose": "关闭"
+      },
+      "nestlab": {
+        "title": "NestLab",
+        "description": "鞋业排料与原材料消耗计算软件——板材嵌套、利用率与损耗，支持成本核算。",
+        "category": "软件",
+        "introTitle": "NestLab",
+        "introBody": "NestLab 根据零件在板材上的实际排料估算材料消耗。导入 DXF、按材料整理、完成嵌套并查看利用率与损耗——让定价依据生产数据，而不仅是理论面积。",
+        "introContinue": "打开",
+        "introClose": "关闭"
+      },
+      "3d-models": {
+        "title": "3D 模型",
+        "description": "可下载与 3D 打印的 STL 模型库。",
+        "category": "3D",
+        "introTitle": "3D 模型",
+        "introBody": "浏览可下载的 STL 三维模型。打开条目即可查看文件与各模型详情。",
+        "introContinue": "打开",
+        "introClose": "关闭"
+      }
+    }
+  },
+  "tools": {
+    "title": "工具",
+    "subtitle": "Sem Talento Studio 面向业务的软件与实用工具",
+    "sections": {
+      "software": {
+        "title": "软件",
+        "subtitle": "为业务量身打造的系统与数字产品。"
+      },
+      "utilities": {
+        "title": "实用工具",
+        "subtitle": "面向运营、文件与电商的实用资源。"
+      },
+      "education": {
+        "title": "教育",
+        "subtitle": "实验室、游戏与涂色练习，动手探索。"
+      }
+    },
+    "sizeGuide": {
+      "title": "SizeGuide",
+      "description": "面向鞋履电商的智能尺码模拟器。顾客输入脚部尺寸，即可获得根据产品和需求定制的尺码推荐。",
+      "features": {
+        "simulator": "按尺寸模拟推荐尺码",
+        "tables": "按款式的尺码对照表",
+        "scales": "美码/英码 ↔ 巴西码参考对照",
+        "embed": "可嵌入在线商店（即将推出）"
+      },
+      "demo": "查看演示",
+      "demoNote": "示例数据模拟器 — 真实尺码表将由客户 Excel 载入。",
+      "demoHint": "在新标签页打开 SizeGuide",
+      "viewTable": "查看尺码表",
+      "status": "示例数据演示版",
+      "videoGuide": "如何测量",
+      "tag": "软件",
+      "back": "返回工具",
+      "introTitle": "SizeGuide",
+      "introBody": "选对尺码可减少退换货。SizeGuide 帮助顾客测量脚部并更有信心地选号——在下单之前。",
+      "introContinue": "打开",
+      "introClose": "关闭"
+    },
+    "coming": {
+      "title": "开发中",
+      "subtitle": "Sem Talento Studio 即将推出的工具。",
+      "labcad": "LabCad — 鞋履 CAD",
+      "nestlab": "NestLab — 排料与消耗",
+      "converter": {
+        "title": "3D 文件转换器",
+        "description": "在常见格式之间转换并准备 3D 文件，用于设计、预览与制造。",
+        "category": "实用工具",
+        "introTitle": "3D 文件转换器",
+        "introBody": "即将推出：常见 3D 格式转换，用于设计、预览与制造。如有需求，欢迎联系我们。",
+        "introContinue": "打开",
+        "introClose": "关闭"
+      },
+      "plugins": {
+        "title": "网站插件与扩展",
+        "description": "为电商与平台定制的小部件和扩展——尺码、产品预览等。",
+        "category": "软件",
+        "introTitle": "插件与扩展",
+        "introBody": "面向电商与平台的定制组件。开发中——告诉我们你的网站需要什么，一起聊聊。",
+        "introContinue": "打开",
+        "introClose": "关闭"
+      }
+    },
+    "simuladorEducacional": {
+      "title": "教育模拟测验",
+      "description": "按国家、年级和学科进行多选题模拟测验——成绩、解析和历史记录均保存在您的设备上。",
+      "tag": "教育",
+      "back": "返回教育",
+      "introTitle": "教育模拟器",
+      "introBody": "按学年练习选择题。犯错也有价值：每次尝试巩固已会的内容，并指出还需学习之处。",
+      "introContinue": "打开",
+      "introClose": "关闭"
+    },
+    "jogoDamas": {
+      "title": "跳棋游戏",
+      "description": "巴西跳棋——吃子、升王，双人模式或对战电脑。",
+      "tag": "教育",
+      "back": "返回教育",
+      "introTitle": "跳棋游戏",
+      "introBody": "跳棋锻炼策略、注意力与规划——对孩子和成人都有益。慢慢下，多想一步，在游戏中学习。",
+      "introContinue": "开始",
+      "introClose": "关闭"
+    },
+    "jogoXadrez": {
+      "title": "国际象棋",
+      "description": "经典国际象棋——将军、王车易位、吃过路兵与升变，双人对战或对战电脑。",
+      "tag": "教育",
+      "back": "返回教育",
+      "introTitle": "国际象棋",
+      "introBody": "象棋培养逻辑、耐心与决策力。每盘棋都是专注练习——提醒自己落子前先思考。",
+      "introContinue": "开始",
+      "introClose": "关闭"
+    },
+    "quimicaLab": {
+      "title": "QuimicaLab",
+      "description": "化学虚拟教育实验室——交互式元素周期表、物质与反应，动手探索。",
+      "tag": "教育",
+      "back": "返回教育",
+      "videoGuide": "使用方法",
+      "freeNotice": "本站免费使用 · Sem Talento Studio 专有软件",
+      "sponsorCta": "赞助",
+      "desktopCta": "桌面版",
+      "termsCta": "条款",
+      "contactSubjectSponsor": "QuimicaLab 赞助",
+      "contactSubjectDesktop": "QuimicaLab 桌面版 / 授权",
+      "termsTitle": "QuimicaLab 使用条款",
+      "termsFree": "仅可在本站免费使用网页版，用于教育与演示目的。",
+      "termsProprietary": "软件、源码、构建产物及 QuimicaLab 品牌归 Sem Talento Studio 专有。未经书面授权不得再分发、镜像或重新发布。",
+      "termsSponsor": "本页赞助位可通过商业协议洽谈。",
+      "termsDesktop": "可安装版（.exe / 桌面）及机构授权可另行洽谈——不包含在免费在线使用中。",
+      "termsDisclaimer": "教育工具按“现状”提供。不能替代有监督的实体实验室或专业教学指导。",
+      "introTitle": "QuimicaLab",
+      "introBody": "在安全环境中探索化学概念，无需实体实验室。互动查看物质、反应与元素周期表。",
+      "introContinue": "打开",
+      "introClose": "关闭"
+    },
+    "imagensColorir": {
+      "title": "绘画与涂色",
+      "description": "完成已开始的线稿，或涂色精美页面。免费下载或打印（CC0）。",
+      "tag": "教育",
+      "back": "返回教育",
+      "introTitle": "绘画与涂色",
+      "introBody": "两类纸张：待完成（SVG 线稿，请继续画）和待涂色（精美 PNG）。全部为 CC0，可自由使用。",
+      "introContinue": "打开",
+      "introClose": "关闭",
+      "filterAll": "全部",
+      "download": "下载",
+      "print": "打印",
+      "licenseNote": "CC0 — 自由使用，无限制",
+      "searchPlaceholder": "搜索纸张...",
+      "empty": "未找到纸张。",
+      "loadMore": "加载更多",
+      "categories": {
+        "animals": "动物",
+        "farm": "农场",
+        "forest": "森林",
+        "bugs": "小虫子",
+        "vehicles": "交通工具",
+        "nature": "自然",
+        "fairytales": "童话",
+        "letters": "字母",
+        "numbers": "数字",
+        "shapes": "形状",
+        "scenes": "场景",
+        "food": "食物",
+        "space": "太空"
+      },
+      "filterAllCategories": "全部主题",
+      "modes": {
+        "draw": "完成并涂色",
+        "color": "待涂色"
+      }
+    }
+  },
+  "content": {
+    "title": "内容",
+    "subtitle": "",
+    "channel": "频道 @semtalentostudio",
+    "empty": "请稍候，我们正在为频道准备特别内容。您现在就可以订阅，视频发布时会收到通知！",
+    "videos": {}
+  },
+  "about": {
+    "title": "关于",
+    "subtitle": "为联结想法并将其转化为解决方案而生的工作室。",
+    "intro": {
+      "lead": "如果你来到这里，是因为你在寻找更多。",
+      "body": "我们的工作，是帮你把这份渴望提炼出来，转化为解决方案——无论是概念、设计、产品，还是尚不存在的工具。"
+    },
+    "origin": {
+      "title": "我们为何存在",
+      "body": "Sem Talento Studio 源于一种需要：在想法的领域里提取并联结不同的东西——意图、参考、技能、尚未成形的渴望——并将它们转化为产品或解决方案。我们不是从固定领域起步，而是从几个简单的问题开始：",
+      "question1": "什么需要存在？",
+      "question2": "如何让它真正成形？"
+    },
+    "pillars": {
+      "title": "我们做什么",
+      "extract": {
+        "label": "01",
+        "title": "提取",
+        "description": "倾听请求背后的东西。渴望很少现成的到来——它是碎片化的、直觉的，有时甚至没有名字。"
+      },
+      "unite": {
+        "label": "02",
+        "title": "联结",
+        "description": "连接通常不对话的领域：鞋类与代码、实体产品与数字体验、概念与制造。"
+      },
+      "transform": {
+        "label": "03",
+        "title": "转化",
+        "description": "推进到可用的成果——3D 模型、原型、网站，或尚不存在的工具。"
+      }
+    },
+    "fields": {
+      "title": "我们联结什么",
+      "subtitle": "不同方向，同一种思考方式。",
+      "footwear": "鞋类设计——从概念到可继续深化的模型",
+      "product": "产品设计——造型、体量与生产可行性",
+      "3d": "3D 建模与 CAD——渲染或投产前的精确形态",
+      "web": "网站与平台——有目的的数字呈现",
+      "software": "数字工具——尚不存在的解决方案",
+      "education": "教育 — 免费的实践学习工具"
+    },
+    "philosophy": {
+      "title": "我们如何思考",
+      "p1": "我们相信设计不是装饰一个现成的想法——而是为仍在寻找中的东西赋予形态。",
+      "p2": "因此我们的工作横跨鞋类、工业产品、网站、软件与教育：它们是同一种冲动的不同表现——把某人脑海中的东西带到世界上，并以可用的方式呈现。"
+    },
+    "company": {
+      "title": "公司",
+      "name": "Sem Talento Studio",
+      "activity": "产品设计与定制软件开发"
+    },
+    "educationRole": {
+      "title": "我们在教育中的角色",
+      "body1": "教育属于工作室同一份动力：提炼真实需求——清晰学习、减少不必要的门槛——并转化为可用的成果。",
+      "body2": "实验室、游戏、绘画涂色页与模拟练习，是我们社会责任的一部分：让知识更贴近每一位想学习的人，开放使用，并以对待产品或网站同样的用心来完成。",
+      "cta": "查看教育"
+    }
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "项目合作、报价与咨询",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "subject": "主题",
+      "message": "留言",
+      "send": "发送消息",
+      "sending": "发送中...",
+      "success": "消息已发送！我们会尽快回复您的邮箱。",
+      "successDemo": "演示：消息尚未发送。请在服务器上配置 SMTP。",
+      "error": "暂时无法发送。请重试或直接发邮件至 contato@semtalentostudio.com.br。",
+      "demoNote": "表单等待服务器 SMTP 配置（.env.local）。",
+      "placeholder": {
+        "name": "您的姓名",
+        "email": "you@email.com",
+        "subject": "报价、合作、咨询…",
+        "message": "请介绍您的项目…"
+      }
+    },
+    "channels": {
+      "email": "电子邮件",
+      "whatsapp": "WhatsApp",
+      "youtube": "YouTube"
+    },
+    "whatsappNote": "商业 WhatsApp 即将开通",
+    "whatsappCta": "在 WhatsApp 上联系",
+    "emailNote": "邮箱尚未配置，表单为演示模式。请稍后再试或使用下方邮箱链接。"
+  },
+  "footer": {
+    "tagline": "提炼想法，化为解决方案 — 从概念到产品，从实体到数字。",
+    "rights": "版权所有。",
+    "menu": "菜单",
+    "links": "链接",
+    "privacy": "隐私"
+  },
+  "education": {
+    "title": "教育",
+    "subtitle": "实验室、游戏以及绘画与涂色 — 在实践中学习。"
+  },
+  "stlModels": {
+    "search": "搜索模型…",
+    "free": "免费",
+    "paid": "付费",
+    "buyDemo": "购买（演示）",
+    "unlockDemo": "本会话已解锁下载（演示付款）。",
+    "license": "CC0",
+    "download": "下载",
+    "files": "STL 文件",
+    "source": "原始来源",
+    "demoCheckoutTitle": "演示结账",
+    "demoCheckoutNote": "象征性/演示付款 — 不会真实扣款。",
+    "confirmDemo": "确认演示付款",
+    "close": "关闭",
+    "all": "全部",
+    "filterFree": "免费",
+    "filterPaid": "付费",
+    "empty": "未找到模型。",
+    "usd": "US$",
+    "filesComingSoon": "STL 文件将在下一步上线（大文件托管）。目录仍可见；下载即将开放。"
+  },
+  "privacy": {
+    "title": "隐私",
+    "subtitle": "我们如何处理本网站上的数据。",
+    "intro": "SemTalento Studio 尊重您的隐私。本页用简明语言说明我们收集什么以及用途。",
+    "collectTitle": "我们收集什么",
+    "collectBody": "通过联系表单：姓名、邮箱、主题与留言——仅用于回复您。数据发送至我们的 contato@ 邮箱（Zoho Mail）。我们不出售名单，也不要求注册即可使用免费工具。",
+    "toolsTitle": "浏览器内工具",
+    "toolsBody": "部分功能（如模拟测验）可能仅在您的设备上保存历史记录，不会上传到我们的服务器。清除浏览器数据会删除该历史。",
+    "contactTitle": "疑问",
+    "contactBody": "如需访问、更正或删除通过表单提交的数据，请发信至",
+    "contactLink": "前往联系"
+  }
+}

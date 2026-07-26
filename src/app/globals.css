@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #a9abae;
+  --color-brand-light: #c4c6c9;
+  --color-brand-dark: #737578;
+  --color-accent: #c8a96e;
+  --color-accent-soft: #d4b87a;
+  --color-surface: #0a0a0a;
+  --color-surface-elevated: #141414;
+  --color-surface-muted: #1a1a1a;
+  --color-border: #2a2a2a;
+  --color-text: #f5f5f5;
+  --color-text-muted: #a3a3a3;
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, color-mix(in srgb, var(--color-accent) 8%, transparent), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, color-mix(in srgb, var(--color-brand) 6%, transparent), transparent);
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  color: var(--color-text);
+}
+
+.hero-glow {
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--color-accent) 18%, transparent) 0%,
+    transparent 70%
+  );
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--color-brand) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--color-brand) 12%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+}
+
+@keyframes presentation-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+.animate-presentation-zoom {
+  animation: presentation-zoom 5s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-presentation-zoom {
+    animation: none;
+  }
+}
+
+.presentation-float {
+  transform: translateY(-0.5rem);
+  filter: drop-shadow(0 24px 48px color-mix(in srgb, black 45%, transparent));
+}
+
+@media (min-width: 640px) {
+  .presentation-float {
+    transform: translateY(-1rem);
+  }
+}
+
+@keyframes presentation-dock-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.presentation-dock-in {
+  animation: presentation-dock-in 0.35s ease-out;
+}
+
+.card-shine {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-shine:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-accent) 10%, transparent),
+    0 12px 40px -12px color-mix(in srgb, var(--color-accent) 25%, transparent);
+}
+
+.section-panel {
+  border: 1px solid var(--color-border);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-surface-elevated) 90%, transparent),
+    var(--color-surface)
+  );
+  box-shadow: inset 0 1px 0 color-mix(in srgb, white 4%, transparent);
+}
+
+.accent-line {
+  height: 2px;
+  width: 3rem;
+  background: linear-gradient(90deg, var(--color-accent), transparent);
+  border-radius: 9999px;
+}

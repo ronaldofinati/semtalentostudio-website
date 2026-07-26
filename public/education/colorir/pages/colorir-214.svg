@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<circle cx="70" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><g><polygon points="352,561.5 442,561.5 397,651.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="372" cy="536.5" r="32" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="422" cy="536.5" r="32" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="501.5" r="35" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

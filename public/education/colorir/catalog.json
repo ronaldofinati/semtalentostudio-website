@@ -1,0 +1,2429 @@
+{
+  "pages": [
+    {
+      "id": "colorir-png-081",
+      "file": "/education/colorir/pages/png/colorir-png-081-animals-dinossauro.png",
+      "titlePt": "Dinossauro",
+      "category": "animals",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-082",
+      "file": "/education/colorir/pages/png/colorir-png-082-animals-dinossauros.png",
+      "titlePt": "Dinossauros",
+      "category": "animals",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-092",
+      "file": "/education/colorir/pages/png/colorir-png-092-animals-foca.png",
+      "titlePt": "Foca",
+      "category": "animals",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-093",
+      "file": "/education/colorir/pages/png/colorir-png-093-animals-ponei.png",
+      "titlePt": "Ponei",
+      "category": "animals",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-090",
+      "file": "/education/colorir/pages/png/colorir-png-090-animals-tartaruga.png",
+      "titlePt": "Tartaruga",
+      "category": "animals",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-017",
+      "file": "/education/colorir/pages/colorir-017.svg",
+      "titlePt": "Borboleta",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-005",
+      "file": "/education/colorir/pages/colorir-005.svg",
+      "titlePt": "Cachorro",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-041",
+      "file": "/education/colorir/pages/colorir-041.svg",
+      "titlePt": "Caranguejo",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-021",
+      "file": "/education/colorir/pages/colorir-021.svg",
+      "titlePt": "Coelho",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-051",
+      "file": "/education/colorir/pages/colorir-051.svg",
+      "titlePt": "Coruja",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-025",
+      "file": "/education/colorir/pages/colorir-025.svg",
+      "titlePt": "Elefante",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-001",
+      "file": "/education/colorir/pages/colorir-001.svg",
+      "titlePt": "Gato",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-045",
+      "file": "/education/colorir/pages/colorir-045.svg",
+      "titlePt": "Golfinho",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-049",
+      "file": "/education/colorir/pages/colorir-049.svg",
+      "titlePt": "Leao",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-013",
+      "file": "/education/colorir/pages/colorir-013.svg",
+      "titlePt": "Passaro",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-037",
+      "file": "/education/colorir/pages/colorir-037.svg",
+      "titlePt": "Pato",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-009",
+      "file": "/education/colorir/pages/colorir-009.svg",
+      "titlePt": "Peixe",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-033",
+      "file": "/education/colorir/pages/colorir-033.svg",
+      "titlePt": "Sapo",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-029",
+      "file": "/education/colorir/pages/colorir-029.svg",
+      "titlePt": "Tartaruga (2)",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-050",
+      "file": "/education/colorir/pages/colorir-050.svg",
+      "titlePt": "Urso",
+      "category": "animals",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-003",
+      "file": "/education/colorir/pages/png/colorir-png-003-farm-cavalo.png",
+      "titlePt": "Cavalo",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-010",
+      "file": "/education/colorir/pages/png/colorir-png-010-farm-cavalo-e-carroca.png",
+      "titlePt": "Cavalo e carroça",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-013",
+      "file": "/education/colorir/pages/png/colorir-png-013-farm-dois-patinhos.png",
+      "titlePt": "Dois patinhos",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-005",
+      "file": "/education/colorir/pages/png/colorir-png-005-farm-dois-porquinhos.png",
+      "titlePt": "Dois porquinhos",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-014",
+      "file": "/education/colorir/pages/png/colorir-png-014-farm-fazenda.png",
+      "titlePt": "Fazenda",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-006",
+      "file": "/education/colorir/pages/png/colorir-png-006-farm-galinha-e-pintinhos.png",
+      "titlePt": "Galinha e pintinhos",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-007",
+      "file": "/education/colorir/pages/png/colorir-png-007-farm-galo.png",
+      "titlePt": "Galo",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-009",
+      "file": "/education/colorir/pages/png/colorir-png-009-farm-ovelha-e-filhote.png",
+      "titlePt": "Ovelha e filhote",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-012",
+      "file": "/education/colorir/pages/png/colorir-png-012-farm-pato-na-lagoa.png",
+      "titlePt": "Pato na lagoa",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-008",
+      "file": "/education/colorir/pages/png/colorir-png-008-farm-pintinho.png",
+      "titlePt": "Pintinho",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-004",
+      "file": "/education/colorir/pages/png/colorir-png-004-farm-porquinho.png",
+      "titlePt": "Porquinho",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-011",
+      "file": "/education/colorir/pages/png/colorir-png-011-farm-trator.png",
+      "titlePt": "Trator",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-001",
+      "file": "/education/colorir/pages/png/colorir-png-001-farm-vaquinha.png",
+      "titlePt": "Vaquinha",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-002",
+      "file": "/education/colorir/pages/png/colorir-png-002-farm-vaquinha-e-bezerro.png",
+      "titlePt": "Vaquinha e bezerro",
+      "category": "farm",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-025",
+      "file": "/education/colorir/pages/png/colorir-png-025-forest-arara.png",
+      "titlePt": "Arara",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-022",
+      "file": "/education/colorir/pages/png/colorir-png-022-forest-dois-macaquinhos.png",
+      "titlePt": "Dois macaquinhos",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-016",
+      "file": "/education/colorir/pages/png/colorir-png-016-forest-elefante.png",
+      "titlePt": "Elefante",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-023",
+      "file": "/education/colorir/pages/png/colorir-png-023-forest-jacare.png",
+      "titlePt": "Jacaré",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-015",
+      "file": "/education/colorir/pages/png/colorir-png-015-forest-leao.png",
+      "titlePt": "Leão",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-017",
+      "file": "/education/colorir/pages/png/colorir-png-017-forest-macaquinho.png",
+      "titlePt": "Macaquinho",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-024",
+      "file": "/education/colorir/pages/png/colorir-png-024-forest-onca-pintada.png",
+      "titlePt": "Onça Pintada",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-020",
+      "file": "/education/colorir/pages/png/colorir-png-020-forest-paisagem.png",
+      "titlePt": "Paisagem",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-018",
+      "file": "/education/colorir/pages/png/colorir-png-018-forest-tigre.png",
+      "titlePt": "Tigre",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-021",
+      "file": "/education/colorir/pages/png/colorir-png-021-forest-tucano.png",
+      "titlePt": "Tucano",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-019",
+      "file": "/education/colorir/pages/png/colorir-png-019-forest-zebra.png",
+      "titlePt": "Zebra",
+      "category": "forest",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-032",
+      "file": "/education/colorir/pages/png/colorir-png-032-bugs-aranha.png",
+      "titlePt": "Aranha",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-026",
+      "file": "/education/colorir/pages/png/colorir-png-026-bugs-borboleta.png",
+      "titlePt": "Borboleta",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-031",
+      "file": "/education/colorir/pages/png/colorir-png-031-bugs-caracol.png",
+      "titlePt": "Caracol",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-027",
+      "file": "/education/colorir/pages/png/colorir-png-027-bugs-centopeia.png",
+      "titlePt": "Centopéia",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-030",
+      "file": "/education/colorir/pages/png/colorir-png-030-bugs-cigarra.png",
+      "titlePt": "Cigarra",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-029",
+      "file": "/education/colorir/pages/png/colorir-png-029-bugs-duas-joaninhas.png",
+      "titlePt": "Duas joaninhas",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-028",
+      "file": "/education/colorir/pages/png/colorir-png-028-bugs-joaninha.png",
+      "titlePt": "Joaninha",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-033",
+      "file": "/education/colorir/pages/png/colorir-png-033-bugs-libelula.png",
+      "titlePt": "Libélula",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-034",
+      "file": "/education/colorir/pages/png/colorir-png-034-bugs-vagalume.png",
+      "titlePt": "Vagalume",
+      "category": "bugs",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-066",
+      "file": "/education/colorir/pages/png/colorir-png-066-vehicles-aviao.png",
+      "titlePt": "Avião",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-079",
+      "file": "/education/colorir/pages/png/colorir-png-079-vehicles-balao.png",
+      "titlePt": "Balão",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-067",
+      "file": "/education/colorir/pages/png/colorir-png-067-vehicles-barquinho.png",
+      "titlePt": "Barquinho",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-070",
+      "file": "/education/colorir/pages/png/colorir-png-070-vehicles-caminhao.png",
+      "titlePt": "Caminhão",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-078",
+      "file": "/education/colorir/pages/png/colorir-png-078-vehicles-caminhao.png",
+      "titlePt": "Caminhão (2)",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-064",
+      "file": "/education/colorir/pages/png/colorir-png-064-vehicles-carro.png",
+      "titlePt": "Carro",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-065",
+      "file": "/education/colorir/pages/png/colorir-png-065-vehicles-carro.png",
+      "titlePt": "Carro (2)",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-089",
+      "file": "/education/colorir/pages/png/colorir-png-089-vehicles-carro-de-corrida.png",
+      "titlePt": "Carro de corrida",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-088",
+      "file": "/education/colorir/pages/png/colorir-png-088-vehicles-carro-de-passeio.png",
+      "titlePt": "Carro de passeio",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-080",
+      "file": "/education/colorir/pages/png/colorir-png-080-vehicles-dois-baloes.png",
+      "titlePt": "Dois balões",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-072",
+      "file": "/education/colorir/pages/png/colorir-png-072-vehicles-escavadeira.png",
+      "titlePt": "Escavadeira",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-074",
+      "file": "/education/colorir/pages/png/colorir-png-074-vehicles-foguete.png",
+      "titlePt": "Foguete",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-075",
+      "file": "/education/colorir/pages/png/colorir-png-075-vehicles-foguete.png",
+      "titlePt": "Foguete (2)",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-071",
+      "file": "/education/colorir/pages/png/colorir-png-071-vehicles-guincho.png",
+      "titlePt": "Guincho",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-073",
+      "file": "/education/colorir/pages/png/colorir-png-073-vehicles-helicoptero.png",
+      "titlePt": "Helicóptero",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-076",
+      "file": "/education/colorir/pages/png/colorir-png-076-vehicles-helicoptero.png",
+      "titlePt": "Helicóptero (2)",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-069",
+      "file": "/education/colorir/pages/png/colorir-png-069-vehicles-locomotiva.png",
+      "titlePt": "Locomotiva",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-068",
+      "file": "/education/colorir/pages/png/colorir-png-068-vehicles-navio.png",
+      "titlePt": "Navio",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-077",
+      "file": "/education/colorir/pages/png/colorir-png-077-vehicles-submarino.png",
+      "titlePt": "Submarino",
+      "category": "vehicles",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-074",
+      "file": "/education/colorir/pages/colorir-074.svg",
+      "titlePt": "Aviao",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-077",
+      "file": "/education/colorir/pages/colorir-077.svg",
+      "titlePt": "Barco",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-071",
+      "file": "/education/colorir/pages/colorir-071.svg",
+      "titlePt": "Bicicleta",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-065",
+      "file": "/education/colorir/pages/colorir-065.svg",
+      "titlePt": "Caminhao",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-062",
+      "file": "/education/colorir/pages/colorir-062.svg",
+      "titlePt": "Carro (3)",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-295",
+      "file": "/education/colorir/pages/colorir-295.svg",
+      "titlePt": "Estacao de trem",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-083",
+      "file": "/education/colorir/pages/colorir-083.svg",
+      "titlePt": "Foguetinho",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-086",
+      "file": "/education/colorir/pages/colorir-086.svg",
+      "titlePt": "Helicoptero",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-068",
+      "file": "/education/colorir/pages/colorir-068.svg",
+      "titlePt": "Onibus",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-090",
+      "file": "/education/colorir/pages/colorir-090.svg",
+      "titlePt": "Patins",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-089",
+      "file": "/education/colorir/pages/colorir-089.svg",
+      "titlePt": "Scooter",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-091",
+      "file": "/education/colorir/pages/colorir-091.svg",
+      "titlePt": "Submarino (2)",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-092",
+      "file": "/education/colorir/pages/colorir-092.svg",
+      "titlePt": "Trator",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-080",
+      "file": "/education/colorir/pages/colorir-080.svg",
+      "titlePt": "Trem",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-262",
+      "file": "/education/colorir/pages/colorir-262.svg",
+      "titlePt": "Variacao 2",
+      "category": "vehicles",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-103",
+      "file": "/education/colorir/pages/colorir-103.svg",
+      "titlePt": "Arco-iris",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-099",
+      "file": "/education/colorir/pages/colorir-099.svg",
+      "titlePt": "Arvore",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-106",
+      "file": "/education/colorir/pages/colorir-106.svg",
+      "titlePt": "Cacto",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-110",
+      "file": "/education/colorir/pages/colorir-110.svg",
+      "titlePt": "Chuva alegre",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-104",
+      "file": "/education/colorir/pages/colorir-104.svg",
+      "titlePt": "Cogumelo",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-100",
+      "file": "/education/colorir/pages/colorir-100.svg",
+      "titlePt": "Duas arvores",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-093",
+      "file": "/education/colorir/pages/colorir-093.svg",
+      "titlePt": "Flor 1",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-287",
+      "file": "/education/colorir/pages/colorir-287.svg",
+      "titlePt": "Floresta tropical",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-105",
+      "file": "/education/colorir/pages/colorir-105.svg",
+      "titlePt": "Folha",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-108",
+      "file": "/education/colorir/pages/colorir-108.svg",
+      "titlePt": "Girassol",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-109",
+      "file": "/education/colorir/pages/colorir-109.svg",
+      "titlePt": "Jardim",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-111",
+      "file": "/education/colorir/pages/colorir-111.svg",
+      "titlePt": "Lago",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-102",
+      "file": "/education/colorir/pages/colorir-102.svg",
+      "titlePt": "Montanhas",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-107",
+      "file": "/education/colorir/pages/colorir-107.svg",
+      "titlePt": "Tulipa",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-263",
+      "file": "/education/colorir/pages/colorir-263.svg",
+      "titlePt": "Variacao 3",
+      "category": "nature",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-044",
+      "file": "/education/colorir/pages/png/colorir-png-044-fairytales-boneco-de-neve.png",
+      "titlePt": "Boneco de Neve",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-036",
+      "file": "/education/colorir/pages/png/colorir-png-036-fairytales-castelo.png",
+      "titlePt": "Castelo",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-038",
+      "file": "/education/colorir/pages/png/colorir-png-038-fairytales-castelo.png",
+      "titlePt": "Castelo (2)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-041",
+      "file": "/education/colorir/pages/png/colorir-png-041-fairytales-castelo.png",
+      "titlePt": "Castelo (3)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-086",
+      "file": "/education/colorir/pages/png/colorir-png-086-fairytales-castelo.png",
+      "titlePt": "Castelo (4)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-045",
+      "file": "/education/colorir/pages/png/colorir-png-045-fairytales-dragao.png",
+      "titlePt": "Dragão",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-042",
+      "file": "/education/colorir/pages/png/colorir-png-042-fairytales-fada.png",
+      "titlePt": "Fada",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-091",
+      "file": "/education/colorir/pages/png/colorir-png-091-fairytales-fada.png",
+      "titlePt": "Fada (2)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-035",
+      "file": "/education/colorir/pages/png/colorir-png-035-fairytales-princesa.png",
+      "titlePt": "Princesa",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-037",
+      "file": "/education/colorir/pages/png/colorir-png-037-fairytales-princesa.png",
+      "titlePt": "Princesa (2)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-039",
+      "file": "/education/colorir/pages/png/colorir-png-039-fairytales-princesa-e-ponei.png",
+      "titlePt": "Princesa e Pônei",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-043",
+      "file": "/education/colorir/pages/png/colorir-png-043-fairytales-principe-e-princesa.png",
+      "titlePt": "Principe e Princesa",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-087",
+      "file": "/education/colorir/pages/png/colorir-png-087-fairytales-principe-e-princesa.png",
+      "titlePt": "Principe e Princesa (2)",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-040",
+      "file": "/education/colorir/pages/png/colorir-png-040-fairytales-sereia.png",
+      "titlePt": "Sereia",
+      "category": "fairytales",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-120",
+      "file": "/education/colorir/pages/colorir-120.svg",
+      "titlePt": "Letra A",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-121",
+      "file": "/education/colorir/pages/colorir-121.svg",
+      "titlePt": "Letra B",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-122",
+      "file": "/education/colorir/pages/colorir-122.svg",
+      "titlePt": "Letra C",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-123",
+      "file": "/education/colorir/pages/colorir-123.svg",
+      "titlePt": "Letra D",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-124",
+      "file": "/education/colorir/pages/colorir-124.svg",
+      "titlePt": "Letra E",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-125",
+      "file": "/education/colorir/pages/colorir-125.svg",
+      "titlePt": "Letra F",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-126",
+      "file": "/education/colorir/pages/colorir-126.svg",
+      "titlePt": "Letra G",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-127",
+      "file": "/education/colorir/pages/colorir-127.svg",
+      "titlePt": "Letra H",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-128",
+      "file": "/education/colorir/pages/colorir-128.svg",
+      "titlePt": "Letra I",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-129",
+      "file": "/education/colorir/pages/colorir-129.svg",
+      "titlePt": "Letra J",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-130",
+      "file": "/education/colorir/pages/colorir-130.svg",
+      "titlePt": "Letra K",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-131",
+      "file": "/education/colorir/pages/colorir-131.svg",
+      "titlePt": "Letra L",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-132",
+      "file": "/education/colorir/pages/colorir-132.svg",
+      "titlePt": "Letra M",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-133",
+      "file": "/education/colorir/pages/colorir-133.svg",
+      "titlePt": "Letra N",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-134",
+      "file": "/education/colorir/pages/colorir-134.svg",
+      "titlePt": "Letra O",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-135",
+      "file": "/education/colorir/pages/colorir-135.svg",
+      "titlePt": "Letra P",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-136",
+      "file": "/education/colorir/pages/colorir-136.svg",
+      "titlePt": "Letra Q",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-137",
+      "file": "/education/colorir/pages/colorir-137.svg",
+      "titlePt": "Letra R",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-138",
+      "file": "/education/colorir/pages/colorir-138.svg",
+      "titlePt": "Letra S",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-139",
+      "file": "/education/colorir/pages/colorir-139.svg",
+      "titlePt": "Letra T",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-140",
+      "file": "/education/colorir/pages/colorir-140.svg",
+      "titlePt": "Letra U",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-141",
+      "file": "/education/colorir/pages/colorir-141.svg",
+      "titlePt": "Letra V",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-142",
+      "file": "/education/colorir/pages/colorir-142.svg",
+      "titlePt": "Letra W",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-143",
+      "file": "/education/colorir/pages/colorir-143.svg",
+      "titlePt": "Letra X",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-144",
+      "file": "/education/colorir/pages/colorir-144.svg",
+      "titlePt": "Letra Y",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-145",
+      "file": "/education/colorir/pages/colorir-145.svg",
+      "titlePt": "Letra Z",
+      "category": "letters",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-146",
+      "file": "/education/colorir/pages/colorir-146.svg",
+      "titlePt": "Numero 0",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-147",
+      "file": "/education/colorir/pages/colorir-147.svg",
+      "titlePt": "Numero 1",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-148",
+      "file": "/education/colorir/pages/colorir-148.svg",
+      "titlePt": "Numero 2",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-149",
+      "file": "/education/colorir/pages/colorir-149.svg",
+      "titlePt": "Numero 3",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-150",
+      "file": "/education/colorir/pages/colorir-150.svg",
+      "titlePt": "Numero 4",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-151",
+      "file": "/education/colorir/pages/colorir-151.svg",
+      "titlePt": "Numero 5",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-152",
+      "file": "/education/colorir/pages/colorir-152.svg",
+      "titlePt": "Numero 6",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-153",
+      "file": "/education/colorir/pages/colorir-153.svg",
+      "titlePt": "Numero 7",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-154",
+      "file": "/education/colorir/pages/colorir-154.svg",
+      "titlePt": "Numero 8",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-155",
+      "file": "/education/colorir/pages/colorir-155.svg",
+      "titlePt": "Numero 9",
+      "category": "numbers",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-156",
+      "file": "/education/colorir/pages/colorir-156.svg",
+      "titlePt": "Circulo",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-157",
+      "file": "/education/colorir/pages/colorir-157.svg",
+      "titlePt": "Circulo decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-164",
+      "file": "/education/colorir/pages/colorir-164.svg",
+      "titlePt": "Coracao",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-165",
+      "file": "/education/colorir/pages/colorir-165.svg",
+      "titlePt": "Coracao decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-174",
+      "file": "/education/colorir/pages/colorir-174.svg",
+      "titlePt": "Cruz",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-175",
+      "file": "/education/colorir/pages/colorir-175.svg",
+      "titlePt": "Cruz decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-162",
+      "file": "/education/colorir/pages/colorir-162.svg",
+      "titlePt": "Estrela",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-163",
+      "file": "/education/colorir/pages/colorir-163.svg",
+      "titlePt": "Estrela decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-168",
+      "file": "/education/colorir/pages/colorir-168.svg",
+      "titlePt": "Hexagono",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-169",
+      "file": "/education/colorir/pages/colorir-169.svg",
+      "titlePt": "Hexagono decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-166",
+      "file": "/education/colorir/pages/colorir-166.svg",
+      "titlePt": "Losango",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-167",
+      "file": "/education/colorir/pages/colorir-167.svg",
+      "titlePt": "Losango decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-172",
+      "file": "/education/colorir/pages/colorir-172.svg",
+      "titlePt": "Lua crescente",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-173",
+      "file": "/education/colorir/pages/colorir-173.svg",
+      "titlePt": "Lua crescente decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-178",
+      "file": "/education/colorir/pages/colorir-178.svg",
+      "titlePt": "Meia-lua",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-179",
+      "file": "/education/colorir/pages/colorir-179.svg",
+      "titlePt": "Meia-lua decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-170",
+      "file": "/education/colorir/pages/colorir-170.svg",
+      "titlePt": "Oval",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-171",
+      "file": "/education/colorir/pages/colorir-171.svg",
+      "titlePt": "Oval decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-158",
+      "file": "/education/colorir/pages/colorir-158.svg",
+      "titlePt": "Quadrado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-159",
+      "file": "/education/colorir/pages/colorir-159.svg",
+      "titlePt": "Quadrado decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-176",
+      "file": "/education/colorir/pages/colorir-176.svg",
+      "titlePt": "Seta",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-177",
+      "file": "/education/colorir/pages/colorir-177.svg",
+      "titlePt": "Seta decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-160",
+      "file": "/education/colorir/pages/colorir-160.svg",
+      "titlePt": "Triangulo",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-161",
+      "file": "/education/colorir/pages/colorir-161.svg",
+      "titlePt": "Triangulo decorado",
+      "category": "shapes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-094",
+      "file": "/education/colorir/pages/png/colorir-png-094-scenes-fundo-do-mar.png",
+      "titlePt": "Fundo do mar",
+      "category": "scenes",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-186",
+      "file": "/education/colorir/pages/colorir-186.svg",
+      "titlePt": "Acampamento",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-260",
+      "file": "/education/colorir/pages/colorir-260.svg",
+      "titlePt": "Bandeira",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-256",
+      "file": "/education/colorir/pages/colorir-256.svg",
+      "titlePt": "Bola de futebol",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-180",
+      "file": "/education/colorir/pages/colorir-180.svg",
+      "titlePt": "Casa",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-181",
+      "file": "/education/colorir/pages/colorir-181.svg",
+      "titlePt": "Casa e arvore",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-187",
+      "file": "/education/colorir/pages/colorir-187.svg",
+      "titlePt": "Castelo",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-257",
+      "file": "/education/colorir/pages/colorir-257.svg",
+      "titlePt": "Cesta de basquete",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-185",
+      "file": "/education/colorir/pages/colorir-185.svg",
+      "titlePt": "Cidade simples",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-189",
+      "file": "/education/colorir/pages/colorir-189.svg",
+      "titlePt": "Escola",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-184",
+      "file": "/education/colorir/pages/colorir-184.svg",
+      "titlePt": "Fazenda",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-182",
+      "file": "/education/colorir/pages/colorir-182.svg",
+      "titlePt": "Parque",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-188",
+      "file": "/education/colorir/pages/colorir-188.svg",
+      "titlePt": "Ponte",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-183",
+      "file": "/education/colorir/pages/colorir-183.svg",
+      "titlePt": "Praia",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-258",
+      "file": "/education/colorir/pages/colorir-258.svg",
+      "titlePt": "Raquete e bola",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-259",
+      "file": "/education/colorir/pages/colorir-259.svg",
+      "titlePt": "Trofeu",
+      "category": "scenes",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-056",
+      "file": "/education/colorir/pages/png/colorir-png-056-food-banana.png",
+      "titlePt": "Banana",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-062",
+      "file": "/education/colorir/pages/png/colorir-png-062-food-cereja.png",
+      "titlePt": "Cereja",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-063",
+      "file": "/education/colorir/pages/png/colorir-png-063-food-coco.png",
+      "titlePt": "Côco",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-060",
+      "file": "/education/colorir/pages/png/colorir-png-060-food-laranja.png",
+      "titlePt": "Laranja",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-055",
+      "file": "/education/colorir/pages/png/colorir-png-055-food-maca.png",
+      "titlePt": "Maçã",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-057",
+      "file": "/education/colorir/pages/png/colorir-png-057-food-melancia.png",
+      "titlePt": "Melancia",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-058",
+      "file": "/education/colorir/pages/png/colorir-png-058-food-morango-e-cereja.png",
+      "titlePt": "Morango e cereja",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-061",
+      "file": "/education/colorir/pages/png/colorir-png-061-food-pera.png",
+      "titlePt": "Pera",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-059",
+      "file": "/education/colorir/pages/png/colorir-png-059-food-uva.png",
+      "titlePt": "Uva",
+      "category": "food",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-205",
+      "file": "/education/colorir/pages/colorir-205.svg",
+      "titlePt": "Banana (2)",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-224",
+      "file": "/education/colorir/pages/colorir-224.svg",
+      "titlePt": "Bolo",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-223",
+      "file": "/education/colorir/pages/colorir-223.svg",
+      "titlePt": "Cenoura",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-227",
+      "file": "/education/colorir/pages/colorir-227.svg",
+      "titlePt": "Cookie",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-225",
+      "file": "/education/colorir/pages/colorir-225.svg",
+      "titlePt": "Cupcake",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-226",
+      "file": "/education/colorir/pages/colorir-226.svg",
+      "titlePt": "Donut",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-228",
+      "file": "/education/colorir/pages/colorir-228.svg",
+      "titlePt": "Lanche 1",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-221",
+      "file": "/education/colorir/pages/colorir-221.svg",
+      "titlePt": "Laranja (2)",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-202",
+      "file": "/education/colorir/pages/colorir-202.svg",
+      "titlePt": "Maca",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-220",
+      "file": "/education/colorir/pages/colorir-220.svg",
+      "titlePt": "Melancia (2)",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-208",
+      "file": "/education/colorir/pages/colorir-208.svg",
+      "titlePt": "Morango",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-222",
+      "file": "/education/colorir/pages/colorir-222.svg",
+      "titlePt": "Pera (2)",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-217",
+      "file": "/education/colorir/pages/colorir-217.svg",
+      "titlePt": "Pizza",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-214",
+      "file": "/education/colorir/pages/colorir-214.svg",
+      "titlePt": "Sorvete",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-211",
+      "file": "/education/colorir/pages/colorir-211.svg",
+      "titlePt": "Uvas",
+      "category": "food",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-047",
+      "file": "/education/colorir/pages/png/colorir-png-047-space-astronauta.png",
+      "titlePt": "Astronauta",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-052",
+      "file": "/education/colorir/pages/png/colorir-png-052-space-astronauta.png",
+      "titlePt": "Astronauta (2)",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-054",
+      "file": "/education/colorir/pages/png/colorir-png-054-space-astronauta.png",
+      "titlePt": "Astronauta (3)",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-083",
+      "file": "/education/colorir/pages/png/colorir-png-083-space-astronauta.png",
+      "titlePt": "Astronauta (4)",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-048",
+      "file": "/education/colorir/pages/png/colorir-png-048-space-et.png",
+      "titlePt": "ET",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-046",
+      "file": "/education/colorir/pages/png/colorir-png-046-space-foguete.png",
+      "titlePt": "Foguete",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-049",
+      "file": "/education/colorir/pages/png/colorir-png-049-space-foguete.png",
+      "titlePt": "Foguete (2)",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-084",
+      "file": "/education/colorir/pages/png/colorir-png-084-space-foguete.png",
+      "titlePt": "Foguete (3)",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-050",
+      "file": "/education/colorir/pages/png/colorir-png-050-space-foguetes.png",
+      "titlePt": "Foguetes",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-085",
+      "file": "/education/colorir/pages/png/colorir-png-085-space-nave-espacial.png",
+      "titlePt": "Nave espacial",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-051",
+      "file": "/education/colorir/pages/png/colorir-png-051-space-planeta.png",
+      "titlePt": "Planeta",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-png-053",
+      "file": "/education/colorir/pages/png/colorir-png-053-space-planetas.png",
+      "titlePt": "Planetas",
+      "category": "space",
+      "mode": "color",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-238",
+      "file": "/education/colorir/pages/colorir-238.svg",
+      "titlePt": "Astronauta (5)",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-284",
+      "file": "/education/colorir/pages/colorir-284.svg",
+      "titlePt": "Aventura espacial",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-240",
+      "file": "/education/colorir/pages/colorir-240.svg",
+      "titlePt": "Cometa",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-242",
+      "file": "/education/colorir/pages/colorir-242.svg",
+      "titlePt": "Espaco 1",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-345",
+      "file": "/education/colorir/pages/colorir-345.svg",
+      "titlePt": "Espaco elaborado 1",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-234",
+      "file": "/education/colorir/pages/colorir-234.svg",
+      "titlePt": "Foguete (4)",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-236",
+      "file": "/education/colorir/pages/colorir-236.svg",
+      "titlePt": "Lua",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-237",
+      "file": "/education/colorir/pages/colorir-237.svg",
+      "titlePt": "OVNI",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-235",
+      "file": "/education/colorir/pages/colorir-235.svg",
+      "titlePt": "Planeta (2)",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-239",
+      "file": "/education/colorir/pages/colorir-239.svg",
+      "titlePt": "Satelite",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-241",
+      "file": "/education/colorir/pages/colorir-241.svg",
+      "titlePt": "Sistema solar",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    },
+    {
+      "id": "colorir-265",
+      "file": "/education/colorir/pages/colorir-265.svg",
+      "titlePt": "Variacao 5",
+      "category": "space",
+      "mode": "draw",
+      "license": "CC0",
+      "attribution": "Sem Talento Studio",
+      "printFriendly": true
+    }
+  ],
+  "categories": [
+    "animals",
+    "farm",
+    "forest",
+    "bugs",
+    "vehicles",
+    "nature",
+    "fairytales",
+    "letters",
+    "numbers",
+    "shapes",
+    "scenes",
+    "food",
+    "space"
+  ]
+}

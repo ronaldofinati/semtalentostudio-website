@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<line x1="50" y1="80" x2="120" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="80" x2="744" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="50" y1="1043" x2="120" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="1043" x2="744" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><polygon points="397,401.5 517,561.5 447,561.5 447,721.5 347,721.5 347,561.5 277,561.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

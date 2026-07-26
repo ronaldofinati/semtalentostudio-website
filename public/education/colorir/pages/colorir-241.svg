@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<circle cx="70" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="561.5" r="40" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="561.5" r="100" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="561.5" r="160" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="561.5" r="220" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="497" cy="561.5" r="12" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="237" cy="581.5" r="16" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="597" cy="521.5" r="14" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="347" cy="351.5" r="10" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

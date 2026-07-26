@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<line x1="50" y1="80" x2="120" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="80" x2="744" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="50" y1="1043" x2="120" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="1043" x2="744" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><g><ellipse cx="397" cy="521.5" rx="76.5" ry="45" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="365.5" cy="508" r="10.799999999999999" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="428.5" cy="508" r="10.799999999999999" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 320.5 521.5 Q 271 467.5 289 440.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 473.5 521.5 Q 523 467.5 505 440.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="352" y1="562" x2="334" y2="602.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="442" y1="562" x2="460" y2="602.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xadrez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <div class="brand">
+          <p class="brand-mark" id="brand-mark">Xadrez</p>
+          <p class="brand-sub" id="brand-sub">Regras classicas - 8x8</p>
+        </div>
+        <div class="status" id="status" aria-live="polite">
+          Vez das brancas
+        </div>
+      </header>
+
+      <main class="stage">
+        <aside class="panel panel-left">
+          <h2 id="label-mode">Modo</h2>
+          <div class="mode-toggle" role="group" aria-label="Modo de jogo">
+            <button type="button" class="mode-btn is-active" data-mode="pvp">
+              Dois jogadores
+            </button>
+            <button type="button" class="mode-btn" data-mode="ai">
+              Contra o PC
+            </button>
+          </div>
+
+          <h2 id="label-tips">Dicas</h2>
+          <ul class="rules-list">
+            <li id="tip-1">Clique ou arraste para mover</li>
+            <li id="tip-2">Roque, en passant e promocao inclusos</li>
+            <li id="tip-3">Xeque e mate seguem as regras classicas</li>
+          </ul>
+
+          <button type="button" class="btn btn-ghost" id="btn-undo" disabled>
+            Desfazer
+          </button>
+          <button type="button" class="btn btn-primary" id="btn-reset">
+            Novo jogo
+          </button>
+        </aside>
+
+        <section class="table-wrap" aria-label="Tabuleiro de xadrez">
+          <div class="lamp" aria-hidden="true"></div>
+          <div class="scene">
+            <div class="board-shadow" aria-hidden="true"></div>
+            <div class="board-frame">
+              <div class="tray tray-top" id="tray-top" aria-label="Capturadas brancas"></div>
+              <div class="board" id="board" role="grid" aria-label="Tabuleiro 8 por 8"></div>
+              <div class="tray tray-bottom" id="tray-bottom" aria-label="Capturadas pretas"></div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="panel panel-right">
+          <div class="scorecard">
+            <div class="side side-white">
+              <span class="side-label" id="label-white">Brancas</span>
+              <span class="side-glyph" aria-hidden="true">&#9812;</span>
+            </div>
+            <div class="side side-black">
+              <span class="side-label" id="label-black">Pretas</span>
+              <span class="side-glyph" aria-hidden="true">&#9818;</span>
+            </div>
+          </div>
+
+          <h2 id="label-captured">Capturadas</h2>
+          <p class="hint tiny" id="captured-hint">Nas bordas do tabuleiro</p>
+
+          <h2 id="label-last">Ultima jogada</h2>
+          <p class="last-move" id="last-move">Partida iniciada</p>
+
+          <div class="hint" id="hint">
+            Arraste uma peca destacada ate o destino (ou clique para selecionar).
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <div class="overlay hidden" id="overlay">
+      <div class="modal">
+        <p class="modal-eyebrow" id="overlay-eyebrow">Fim de partida</p>
+        <h2 id="overlay-title">Vitoria</h2>
+        <p id="overlay-text"></p>
+        <button type="button" class="btn btn-primary" id="btn-again">
+          Jogar de novo
+        </button>
+      </div>
+    </div>
+
+    <script src="js/rules.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

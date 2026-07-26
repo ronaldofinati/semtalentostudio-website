@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Damas Brasileiras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <div class="brand">
+          <p class="brand-mark" data-i18n="brand">Damas</p>
+          <p class="brand-sub" data-i18n="brandSub">Regras brasileiras — 8×8</p>
+        </div>
+        <div class="status" id="status" aria-live="polite" data-i18n="statusWhite">
+          Vez das brancas
+        </div>
+      </header>
+
+      <main class="stage">
+        <aside class="panel panel-left">
+          <h2 data-i18n="modeHeading">Modo</h2>
+          <div class="mode-toggle" role="group" data-i18n="modeGroupAria" data-i18n-attr="aria-label">
+            <button type="button" class="mode-btn is-active" data-mode="pvp" data-i18n="modePvp">
+              Dois jogadores
+            </button>
+            <button type="button" class="mode-btn" data-mode="ai" data-i18n="modeAi">
+              Contra o PC
+            </button>
+          </div>
+
+          <h2 data-i18n="rulesHeading">Capturas</h2>
+          <ul class="rules-list">
+            <li data-i18n="rule1">Captura é obrigatória</li>
+            <li data-i18n="rule2">Maior sequência vence o empate</li>
+            <li data-i18n="rule3">Pedras capturam para frente e para trás</li>
+            <li data-i18n="rule4">Damas voadoras (movimento longo)</li>
+          </ul>
+
+          <button type="button" class="btn btn-ghost" id="btn-undo" disabled data-i18n="undo">
+            Desfazer
+          </button>
+          <button type="button" class="btn btn-primary" id="btn-reset" data-i18n="reset">
+            Novo jogo
+          </button>
+        </aside>
+
+        <section class="table-wrap" data-i18n="boardSectionAria" data-i18n-attr="aria-label">
+          <div class="lamp" aria-hidden="true"></div>
+          <div class="scene">
+            <div
+              class="capture-tray capture-tray-left"
+              id="tray-black"
+              data-i18n="trayBlackAria"
+              data-i18n-attr="aria-label"
+            ></div>
+            <div class="board-shadow" aria-hidden="true"></div>
+            <div class="board-frame">
+              <div class="board" id="board" role="grid" data-i18n="boardAria" data-i18n-attr="aria-label"></div>
+            </div>
+            <div
+              class="capture-tray capture-tray-right"
+              id="tray-white"
+              data-i18n="trayWhiteAria"
+              data-i18n-attr="aria-label"
+            ></div>
+          </div>
+        </section>
+
+        <aside class="panel panel-right">
+          <div class="scorecard">
+            <div class="side side-white">
+              <span class="side-label" data-i18n="white">Brancas</span>
+              <span class="side-count" id="count-white">12</span>
+            </div>
+            <div class="side side-black">
+              <span class="side-label" data-i18n="black">Pretas</span>
+              <span class="side-count" id="count-black">12</span>
+            </div>
+          </div>
+
+          <h2 data-i18n="lastMoveHeading">Última jogada</h2>
+          <p class="last-move" id="last-move" data-i18n="gameStarted">Partida iniciada</p>
+
+          <div class="hint" id="hint" data-i18n="hintDefault">Arraste uma peça destacada até o destino (ou clique para selecionar).</div>
+        </aside>
+      </main>
+    </div>
+
+    <div class="overlay hidden" id="overlay">
+      <div class="modal">
+        <p class="modal-eyebrow" data-i18n="overlayEyebrow">Fim de partida</p>
+        <h2 id="overlay-title">Vitória</h2>
+        <p id="overlay-text"></p>
+        <button type="button" class="btn btn-primary" id="btn-again" data-i18n="again">
+          Jogar de novo
+        </button>
+      </div>
+    </div>
+
+    <script src="js/rules.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

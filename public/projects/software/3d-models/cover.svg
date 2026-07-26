@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12161c"/>
+      <stop offset="55%" stop-color="#1a222c"/>
+      <stop offset="100%" stop-color="#0d1014"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3d8f7a"/>
+      <stop offset="100%" stop-color="#2a6b5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg)"/>
+  <g transform="translate(140 90)">
+    <polygon points="180,20 320,100 320,260 180,340 40,260 40,100" fill="none" stroke="#4a5563" stroke-width="3"/>
+    <polygon points="180,20 320,100 180,180 40,100" fill="url(#face)" opacity="0.85"/>
+    <polygon points="180,180 320,100 320,260 180,340" fill="#243038" opacity="0.9"/>
+    <polygon points="40,100 180,180 180,340 40,260" fill="#1c262c" opacity="0.95"/>
+    <line x1="180" y1="20" x2="180" y2="180" stroke="#9ad4c2" stroke-width="2" opacity="0.5"/>
+  </g>
+  <text x="480" y="220" font-family="Georgia, serif" font-size="42" fill="#e8eef2">Modelos 3D</text>
+  <text x="480" y="260" font-family="Arial, sans-serif" font-size="16" fill="#8a9aa8">STL · download</text>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<circle cx="70" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="70" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="70" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="724" cy="1053" r="18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="397" cy="561.5" r="140" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><polygon points="397,511.5 426.38926261462365,521.0491502812527 444.5528258147577,546.0491502812527 444.5528258147577,576.9508497187473 426.38926261462365,601.9508497187473 397,611.5 367.61073738537635,601.9508497187473 349.4471741852423,576.9508497187473 349.4471741852423,546.0491502812527 367.61073738537635,521.0491502812527" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="297" y1="501.5" x2="437" y2="461.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="437" y1="461.5" x2="507" y2="541.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="287" y1="581.5" x2="357" y2="661.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="357" y1="661.5" x2="477" y2="631.5" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

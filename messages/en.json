@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "title": "SemTalento Studio",
+    "description": "Design as applied thinking — footwear, products and digital tools from concept to real-world use."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "tools": "Tools",
+    "content": "Content",
+    "about": "About",
+    "contact": "Contact",
+    "viewAll": "View all",
+    "education": "Education"
+  },
+  "common": {
+    "viewProjects": "View projects",
+    "getInTouch": "Let's talk?",
+    "learnMore": "Learn more",
+    "comingSoon": "Coming soon",
+    "allProjects": "All projects",
+    "backToProjects": "Back to projects",
+    "watchOnYoutube": "Watch on YouTube",
+    "subscribe": "Subscribe to channel",
+    "sendMessage": "Send message",
+    "notFound": "Page not found",
+    "projectImagesSoon": "project images coming soon",
+    "locale": {
+      "pt": "Português",
+      "en": "English",
+      "es": "Español",
+      "zh": "中文"
+    },
+    "zoomImage": "Zoom image",
+    "closeZoom": "Close",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "zoomHint": "Click to zoom",
+    "ctaDesign": "Design",
+    "ctaTools": "Tools",
+    "ctaEducation": "Education"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Sem Talento Studio",
+      "subtitle": "If you made it here, you're looking for something more.",
+      "description": "Our work is to help draw out that desire and turn it into a solution — whether in concept, design, product, or even a tool that doesn't exist yet."
+    },
+    "presentation": {
+      "title": "The studio in images",
+      "categories": {
+        "design": "Design",
+        "educacao": "Education",
+        "ferramentas": "Tools"
+      },
+      "play": "Start presentation",
+      "pause": "Pause",
+      "previous": "Previous slide",
+      "next": "Next slide",
+      "goToSlide": "Go to slide",
+      "muteMusic": "Mute music",
+      "unmuteMusic": "Enable music",
+      "enableSound": "Tap to enable sound",
+      "musicCredit": "Music: Bach — Prelude in C major (public domain)",
+      "expand": "Expand presentation",
+      "close": "Close",
+      "hint": "Want to know more about how we think?",
+      "aboutLink": "Read About",
+      "slides": {
+        "intro": {
+          "title": "If you made it here, you're looking for something more.",
+          "caption": "Sem Talento Studio exists to draw out that desire and turn it into a concrete solution."
+        },
+        "footwear": {
+          "title": "Footwear with intent",
+          "caption": "From casual to injection molded — modeling, render and commercial model variety."
+        },
+        "sport": {
+          "title": "Performance and athletic",
+          "caption": "Sneakers and high-performance studies with technical and visual clarity."
+        },
+        "retro": {
+          "title": "Classic reinterpreted",
+          "caption": "Proportion, sole and detail — retro design with a contemporary eye."
+        },
+        "product": {
+          "title": "Product and object",
+          "caption": "Electronics, tools and industrial volumes modeled to evolve."
+        },
+        "industrial": {
+          "title": "Hard-surface and detail",
+          "caption": "Tools and components as studies of form and manufacturability."
+        },
+        "inflatables": {
+          "title": "Inflatable design",
+          "caption": "Tents, toys and promotional structures — volume modeling, render and presentation for production or events."
+        },
+        "kids": {
+          "title": "Kids and collection",
+          "caption": "Multiple models, one narrative — from isolated pairs to full scenes."
+        },
+        "web": {
+          "title": "Digital with purpose",
+          "caption": "Websites, stores and tools that support the brand in the real world."
+        },
+        "productFan": {
+          "title": "Object at scale",
+          "caption": "Domestic and industrial volumes modeled with intent to use."
+        },
+        "inflatablesMario": {
+          "title": "Character and volume",
+          "caption": "Promotional inflatables with brand presence and long-range readability."
+        },
+        "webMarketplace": {
+          "title": "Digital platforms",
+          "caption": "Interfaces that connect catalog, sales and operations."
+        },
+        "educationQuiz": {
+          "title": "Learn by doing",
+          "caption": "Educational simulator — questions, pace and feedback for real study."
+        },
+        "educationLab": {
+          "title": "Lab and exploration",
+          "caption": "Chemistry and digital experiments that bring science closer to learners."
+        },
+        "models3d": {
+          "title": "Models to print",
+          "caption": "STL library for download — from vases to electronics cases."
+        },
+        "toolsSoft": {
+          "title": "Custom software",
+          "caption": "Digital tools born from real operations and evolving with the business."
+        },
+        "pillars": {
+          "title": "Extract · Unite · Transform",
+          "caption": "We listen to the desire, connect disciplines and carry it through to something usable."
+        },
+        "cta": {
+          "title": "Let's talk?",
+          "caption": "Tell us what you're looking for — concept, product or a tool that doesn't exist yet."
+        },
+        "outro": {
+          "title": "Sem Talento Studio",
+          "caption": "www.semtalentostudio.com.br"
+        }
+      }
+    },
+    "featured": {
+      "title": "Featured",
+      "subtitle": "Selected work in footwear, product, inflatables, web and software"
+    },
+    "tools": {
+      "title": "Tools",
+      "subtitle": "Tailored digital solutions for your business",
+      "card": {
+        "tag": "Software",
+        "title": "Software and digital solutions",
+        "description": "We build custom systems, automations and digital experiences — tools that grow from real operations and evolve with your business."
+      }
+    },
+    "content": {
+      "title": "Content",
+      "subtitle": "",
+      "comingSoon": "We'll activate the YouTube channel soon."
+    },
+    "cta": {
+      "title": "Let's work together",
+      "subtitle": "Custom projects in footwear design, products, inflatables and websites."
+    },
+    "education": {
+      "title": "Education",
+      "subtitle": "Learning from the start shapes what comes next.",
+      "body1": "Education is not a side note — it is the foundation. When curiosity meets practice, kids and adults build attention, logic, and confidence to decide.",
+      "body2": "At Sem Talento Studio, more accessible or free educational tools are part of our social role: bringing knowledge closer to anyone who wants to learn, with the same care we put into design.",
+      "cta": "Explore education"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Portfolio in footwear, product, inflatable and web design",
+    "categories": {
+      "all": "All",
+      "footwear": "Footwear",
+      "product": "Product",
+      "inflatable": "Inflatables",
+      "web": "Web",
+      "software": "Software",
+      "3d": "3D"
+    },
+    "items": {
+      "footwear-design": {
+        "title": "Footwear Design",
+        "description": "Concept, development and prototyping — from sketch to production-ready 3D model.",
+        "category": "Footwear",
+        "galleryTitle": "Featured developments",
+        "gallerySubtitle": "3D modeling with studio renders — reproducible base ready to evolve in Rhino or KeyShot.",
+        "products": [
+          {
+            "id": "urban-canvas",
+            "title": "Urban Canvas 70",
+            "tag": "Casual",
+            "description": "Classic low-top canvas sneaker — side, perspective, top view and lace/eyelet detail. Consistent modeling, ready for render refinement."
+          },
+          {
+            "id": "le-cheval",
+            "title": "Le Cheval",
+            "tag": "Retro",
+            "description": "Retro model with a classic read — side, perspective and bottom view. A proportion, sole and detail study inspired by vintage athletic design."
+          },
+          {
+            "id": "adidas",
+            "title": "Adidas",
+            "tag": "Athletic",
+            "description": "Athletic sneaker — modeling, render and five technical views on studio background."
+          },
+          {
+            "id": "sneaker-color-combo",
+            "title": "Sneaker Color Combo",
+            "tag": "Athletic",
+            "description": "Color combination study on the same sneaker — four palettes plus black and white monochrome versions. Studio renders."
+          },
+          {
+            "id": "flux-stride",
+            "title": "Flux Stride Pro",
+            "tag": "Athletic",
+            "description": "Performance lifestyle sneaker — white mesh, black overlays, sole with lateral/outsole continuity. Side, perspective, top and sole views."
+          },
+          {
+            "id": "sapatilha",
+            "title": "Ballet flat",
+            "tag": "Casual",
+            "description": "Ballet flat — product views on studio background."
+          },
+          {
+            "id": "sandalia-salto",
+            "title": "Heel Sandal",
+            "tag": "Women's",
+            "description": "Women's heeled sandal — product views on studio background."
+          },
+          {
+            "id": "sapato-salto",
+            "title": "Heeled Pump",
+            "tag": "Women's",
+            "description": "Women's heeled pump — side, perspective, top, sole and detail views on studio background."
+          },
+          {
+            "id": "injection-shoes",
+            "title": "Injection Shoes",
+            "tag": "Injection molded",
+            "description": "Injection footwear line — boot, casual, flip-flop, sandals and flat. Modeling and render studies for scaled production."
+          },
+          {
+            "id": "country",
+            "title": "Country",
+            "tag": "Casual",
+            "description": "Country boot — product views on studio background."
+          },
+          {
+            "id": "kids-playroom",
+            "title": "Petit Pas",
+            "tag": "Kids",
+            "layout": "collection",
+            "description": "Children's collection in four styles — boys sneaker and slide, girls ballet flat and sandal. Playroom scene in the hero image; each pair isolated in the thumbnails."
+          }
+        ]
+      },
+      "product-design": {
+        "title": "Product Design",
+        "description": "Industrial product development focused on form, function and manufacturability.",
+        "category": "Product",
+        "galleryTitle": "Featured studies and models",
+        "gallerySubtitle": "3D product modeling and renders — concepts, technical objects and form studies ready to evolve into presentation or prototype.",
+        "products": [
+          {
+            "id": "celular",
+            "title": "Mobile Concept",
+            "tag": "Technology",
+            "description": "Mobile device study with model and render — focused on proportion, surface finish and a premium product read."
+          },
+          {
+            "id": "barraca",
+            "title": "Technical Tent",
+            "tag": "Outdoor",
+            "description": "Tent model with main render and view sheet — exploring structure, volume and product presentation for outdoor use."
+          },
+          {
+            "id": "ferramentas",
+            "title": "Mechanical Tools",
+            "tag": "Tools",
+            "description": "Tool and component set — pliers, wrenches, hammer and wheel — as hard-surface modeling and technical detail studies."
+          },
+          {
+            "id": "ventilador-caseiro",
+            "title": "Home Fan",
+            "tag": "Appliance",
+            "description": "Compact fan concept for home use — two render variations focused on housing, grille and proportion."
+          },
+          {
+            "id": "diversos",
+            "title": "Assorted Studies",
+            "tag": "Products",
+            "description": "A collection of varied objects — packaging, toothbrush, microwave, shelf, squeeze bottle and faucet — covering different surfaces and scales."
+          },
+          {
+            "id": "ventilador-grande",
+            "title": "Large Fan",
+            "tag": "Appliance",
+            "description": "Larger fan in three renders — a study of base, column, blades and grille with a more robust product read."
+          }
+        ]
+      },
+      "inflatable-design": {
+        "title": "Inflatable Design",
+        "description": "Creation, design and modeling of inflatable pieces — from tents and shelters to toys, balloons and promotional structures. We shape the inflated volume, seam and finish details, real-scale readability and visual presentation for approval, production or events.",
+        "category": "Inflatables",
+        "galleryTitle": "Featured developments",
+        "gallerySubtitle": "3D modeling, material renders and technical views — from volumetric concept to presentation ready for manufacturing or assembly.",
+        "products": [
+          {
+            "id": "mario",
+            "title": "Themed Inflatable — Mario",
+            "tag": "Toy",
+            "description": "Themed inflatable with playful presence and brand read — perspective, side detail, outdoor scene, close-up and technical flat patterns for production."
+          },
+          {
+            "id": "inflavel-medio",
+            "title": "Medium Structure",
+            "tag": "Tents",
+            "description": "Medium inflatable tent — shaded volume study, exterior views and setup variations. Suited for fairs, activations and semi-permanent use."
+          },
+          {
+            "id": "inflavel-grande",
+            "title": "Large Structure",
+            "tag": "Events",
+            "description": "Large-scale inflatable tent — shaded renders, perspective, interior view and aerial shot. Designed for visual impact and crowd flow at events."
+          },
+          {
+            "id": "balao",
+            "title": "Volumetric Balloon",
+            "tag": "Promotional",
+            "description": "Promotional inflatable balloon with material study, render levels and volume read — from untextured model to final presentation for campaigns or retail."
+          },
+          {
+            "id": "dino",
+            "title": "Inflatable Dinosaur",
+            "tag": "Toy",
+            "description": "Dinosaur-shaped inflatable toy — shaded, material-free render, final version and opposite view. Character, scale and playful appeal for parks and events."
+          },
+          {
+            "id": "inflatable-course",
+            "title": "Want to learn how to model your own inflatables?",
+            "tag": "Inflatable Course",
+            "description": "We offer a complete inflatable modeling course — from technical 3D to material rendering and piece pattern layout for manufacturing. Ideal for mastering inflated volume, seams, real-scale readability and professional presentation, from scratch to production-ready files.",
+            "ctaHref": "/contato"
+          }
+        ]
+      },
+      "web-design": {
+        "title": "Websites & Web Platforms",
+        "description": "Professional websites, online stores and custom web tools — from portfolio to e-commerce with tailored features.",
+        "category": "Web",
+        "examplesTitle": "Examples we can build",
+        "exampleGroups": [
+          {
+            "label": "Professional — dark mode",
+            "examples": [
+              {
+                "title": "Portfolio + personal brand",
+                "description": "Multilingual site with projects, videos, contact and visual identity — like SemTalento Studio."
+              },
+              {
+                "title": "Footwear online store",
+                "description": "E-commerce with catalog, size simulator, measurement charts and product previews."
+              },
+              {
+                "title": "Digital files marketplace",
+                "description": "Sell designs, 3D models, STL files, templates and courses with checkout and client area."
+              },
+              {
+                "title": "Product landing page",
+                "description": "Conversion-focused page for a shoe launch, collection or specific tool."
+              },
+              {
+                "title": "Widget for existing stores",
+                "description": "Size simulator and embeddable tools for Shopify, WooCommerce or VTEX."
+              },
+              {
+                "title": "B2B institutional site",
+                "description": "Services showcase, case studies and quotes for brands, factories and design studios."
+              }
+            ]
+          },
+          {
+            "label": "Light & airy",
+            "examples": [
+              {
+                "title": "Light brand portfolio",
+                "description": "Bright portfolio with elegant typography and breathing room — ideal for fashion and design brands."
+              },
+              {
+                "title": "Minimal boutique",
+                "description": "Sophisticated light online store with a clean catalog focused on the product."
+              }
+            ]
+          },
+          {
+            "label": "Playful & kids",
+            "examples": [
+              {
+                "title": "Kids size guide",
+                "description": "Friendly sizing simulator for parents and children — soft colors and fun interface."
+              },
+              {
+                "title": "Dance school / kids footwear",
+                "description": "Colorful welcoming site for schools, kids stores or children's collections."
+              }
+            ]
+          }
+        ]
+      },
+      "size-guide": {
+        "title": "Software — Tailored solutions",
+        "description": "We build web tools, automation and custom software for your business — integrations, dashboards, digital workflows and experiences that didn't exist yet. From sizing simulators to whatever your operation needs.",
+        "category": "Software"
+      },
+      "labcad": {
+        "title": "LabCad",
+        "description": "Coming soon: a new integrated 2D/3D CAD/CAM/CAE system built for the footwear industry.",
+        "category": "Software",
+        "introTitle": "LabCad",
+        "introBody": "Soon: a CAD/CAM/CAE system for the footwear industry. Learn about the product vision and follow its development.",
+        "introContinue": "Open",
+        "introClose": "Close"
+      },
+      "nestlab": {
+        "title": "NestLab",
+        "description": "Nesting and raw-material consumption software for footwear — sheet layouts, yield and waste to support cost formation.",
+        "category": "Software",
+        "introTitle": "NestLab",
+        "introBody": "NestLab estimates real material use from how pieces nest on the sheet. Import DXF, assign materials, nest the layout and review yield and waste — so pricing can follow production data, not theoretical area alone.",
+        "introContinue": "Open",
+        "introClose": "Close"
+      },
+      "3d-models": {
+        "title": "3D Models",
+        "description": "STL model library for download and 3D printing.",
+        "category": "3D",
+        "introTitle": "3D models",
+        "introBody": "Browse 3D models in STL for download. Open an item to see files and details for each model.",
+        "introContinue": "Open",
+        "introClose": "Close"
+      }
+    }
+  },
+  "tools": {
+    "title": "Tools",
+    "subtitle": "Software and utilities from Sem Talento Studio for your business",
+    "sections": {
+      "software": {
+        "title": "Software",
+        "subtitle": "Systems and digital products tailored to your business."
+      },
+      "utilities": {
+        "title": "Utilities",
+        "subtitle": "Practical resources for operations, files and e-commerce."
+      },
+      "education": {
+        "title": "Education",
+        "subtitle": "Labs, games, and coloring pages to explore hands-on."
+      }
+    },
+    "sizeGuide": {
+      "title": "SizeGuide",
+      "description": "Smart size simulator for footwear e-commerce. Customers enter foot measurements and get a recommended size with tables customized to the product and need.",
+      "features": {
+        "simulator": "Size simulator by measurements",
+        "tables": "Size charts per model",
+        "scales": "USA/UK ↔ BR reference scale",
+        "embed": "Embeddable in online stores (coming soon)"
+      },
+      "demo": "View demo",
+      "demoNote": "Simulator with sample data — the real chart will be loaded from the client's Excel file.",
+      "demoHint": "Opens SizeGuide in a new tab",
+      "viewTable": "View size chart",
+      "status": "Demo with sample data",
+      "videoGuide": "How to measure",
+      "tag": "Software",
+      "back": "Back to tools",
+      "introTitle": "SizeGuide",
+      "introBody": "The right size cuts returns and exchanges. SizeGuide helps shoppers measure their feet and choose confidently — before they buy.",
+      "introContinue": "Open",
+      "introClose": "Close"
+    },
+    "coming": {
+      "title": "In development",
+      "subtitle": "Next tools from Sem Talento Studio.",
+      "labcad": "LabCad — Footwear CAD",
+      "nestlab": "NestLab — nesting and consumption",
+      "converter": {
+        "title": "3D file converter",
+        "description": "Convert and prepare 3D files across common formats for design, preview and manufacturing.",
+        "category": "Utility",
+        "introTitle": "3D file converter",
+        "introBody": "Coming soon: convert common 3D formats for design, preview, and manufacturing. Meanwhile, tell us what you need.",
+        "introContinue": "Open",
+        "introClose": "Close"
+      },
+      "plugins": {
+        "title": "Plugins and website extensions",
+        "description": "Custom widgets and extensions for e-commerce and platforms — sizing, product preview and more.",
+        "category": "Software",
+        "introTitle": "Plugins and extensions",
+        "introBody": "Custom widgets for e-commerce and platforms. In development — tell us what your site needs and let's talk.",
+        "introContinue": "Open",
+        "introClose": "Close"
+      }
+    },
+    "simuladorEducacional": {
+      "title": "Educational quiz simulator",
+      "description": "Multiple-choice practice tests by country, grade, and subject — with scores, explanations, and history stored on your device.",
+      "tag": "Education",
+      "back": "Back to education",
+      "introTitle": "Educational simulator",
+      "introBody": "Practice questions aligned to the school year. Mistakes matter: each try reinforces what you know and highlights what to study next.",
+      "introContinue": "Open",
+      "introClose": "Close"
+    },
+    "jogoDamas": {
+      "title": "Checkers game",
+      "description": "Brazilian draughts — capture, crown kings, and play two-player or vs the computer.",
+      "tag": "Education",
+      "back": "Back to education",
+      "introTitle": "Checkers",
+      "introBody": "Checkers build strategy, attention, and planning — skills for kids and adults. Slow down, think a move ahead, and enjoy learning.",
+      "introContinue": "Play",
+      "introClose": "Close"
+    },
+    "jogoXadrez": {
+      "title": "Chess game",
+      "description": "Classic chess to learn and play — check, castling, en passant and promotion, two-player or vs the computer.",
+      "tag": "Education",
+      "back": "Back to education",
+      "introTitle": "Chess",
+      "introBody": "Chess develops logic, patience, and decision-making. Every game is focus practice — and a reminder to think before you move.",
+      "introContinue": "Play",
+      "introClose": "Close"
+    },
+    "quimicaLab": {
+      "title": "QuimicaLab",
+      "description": "Educational virtual chemistry lab — interactive periodic table, substances and reactions to explore hands-on.",
+      "tag": "Education",
+      "back": "Back to education",
+      "videoGuide": "How to use",
+      "freeNotice": "Free to use on this site · proprietary software by Sem Talento Studio",
+      "sponsorCta": "Sponsor",
+      "desktopCta": "Desktop version",
+      "termsCta": "Terms",
+      "contactSubjectSponsor": "QuimicaLab sponsorship",
+      "contactSubjectDesktop": "QuimicaLab Desktop / License",
+      "termsTitle": "QuimicaLab terms",
+      "termsFree": "Free use of the web version on this site only, for educational and demonstration purposes.",
+      "termsProprietary": "The software, source, builds, and QuimicaLab brand are proprietary to Sem Talento Studio. No redistribution, mirroring, or republishing without written authorization.",
+      "termsSponsor": "Sponsorship placements on this page are available under a commercial agreement.",
+      "termsDesktop": "Installable (.exe / desktop) builds and institutional licenses are negotiable — not included in free online use.",
+      "termsDisclaimer": "Educational tool provided “as is”. It does not replace a supervised physical lab or professional teaching guidance.",
+      "introTitle": "QuimicaLab",
+      "introBody": "Explore chemistry concepts safely, without a physical lab. Interact with substances, reactions, and the periodic table in an educational way.",
+      "introContinue": "Open",
+      "introClose": "Close"
+    },
+    "imagensColorir": {
+      "title": "Draw and color",
+      "description": "Finish started outlines or color elaborate pages. Free download or print (CC0).",
+      "tag": "Education",
+      "back": "Back to education",
+      "introTitle": "Draw and color",
+      "introBody": "Two kinds of sheets: To complete (SVG outlines to finish) and To color (detailed PNGs). All CC0, free to use.",
+      "introContinue": "Open",
+      "introClose": "Close",
+      "filterAll": "All",
+      "download": "Download",
+      "print": "Print",
+      "licenseNote": "CC0 — free use, no restrictions",
+      "searchPlaceholder": "Search sheets...",
+      "empty": "No sheets found.",
+      "loadMore": "Load more",
+      "categories": {
+        "animals": "Animals",
+        "farm": "Farm",
+        "forest": "Forest",
+        "bugs": "Bugs",
+        "vehicles": "Vehicles",
+        "nature": "Nature",
+        "fairytales": "Fairy tales",
+        "letters": "Letters",
+        "numbers": "Numbers",
+        "shapes": "Shapes",
+        "scenes": "Scenes",
+        "food": "Food",
+        "space": "Space"
+      },
+      "filterAllCategories": "All themes",
+      "modes": {
+        "draw": "Complete and color",
+        "color": "To color"
+      }
+    }
+  },
+  "content": {
+    "title": "Content",
+    "subtitle": "",
+    "channel": "Channel @semtalentostudio",
+    "empty": "Hang tight while we prepare special content for our channel. You can subscribe now to get notified as soon as our videos go live!",
+    "videos": {}
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "The studio born to unite ideas and turn them into solutions.",
+    "intro": {
+      "lead": "If you made it here, you're looking for something more.",
+      "body": "Our work is to help draw out that desire and turn it into a solution — whether in concept, design, product, or even a tool that doesn't exist yet."
+    },
+    "origin": {
+      "title": "Why we exist",
+      "body": "Sem Talento Studio was born from the need to extract and unite different things in the field of ideas — intentions, references, skills, desires not yet fully formed — and turn them into product or solution. We didn't start from a fixed niche: we started with simple questions:",
+      "question1": "What needs to exist?",
+      "question2": "How do we give it real form?"
+    },
+    "pillars": {
+      "title": "What we do",
+      "extract": {
+        "label": "01",
+        "title": "Extract",
+        "description": "Listen to what's behind the request. Desire rarely arrives ready — it comes fragmented, intuitive, sometimes unnamed."
+      },
+      "unite": {
+        "label": "02",
+        "title": "Unite",
+        "description": "Connect disciplines that don't usually talk: footwear and code, physical product and digital experience, concept and manufacturing."
+      },
+      "transform": {
+        "label": "03",
+        "title": "Transform",
+        "description": "Carry it through to something usable — a 3D model, a prototype, a website, a tool that didn't exist yet."
+      }
+    },
+    "fields": {
+      "title": "What we connect",
+      "subtitle": "Different fronts, one way of thinking.",
+      "footwear": "Footwear design — from concept to model ready to evolve",
+      "product": "Product design — objects, volumes and production feasibility",
+      "3d": "3D modeling & CAD — precise form before render or factory",
+      "web": "Websites and platforms — digital presence with purpose",
+      "software": "Digital tools — solutions that didn't exist yet",
+      "education": "Education — free tools for hands-on learning"
+    },
+    "philosophy": {
+      "title": "How we think",
+      "p1": "We believe design isn't decorating a ready-made idea — it's giving shape to something still being sought.",
+      "p2": "That's why our work spans footwear, industrial objects, websites, software and education: they're expressions of the same impulse — taking what's in someone's head and putting it in the world in a way that works."
+    },
+    "company": {
+      "title": "Company",
+      "name": "Sem Talento Studio",
+      "activity": "Product design and custom software development"
+    },
+    "educationRole": {
+      "title": "Our role in education",
+      "body1": "Education belongs to the same studio impulse: extract a real need — learning with clarity, without unnecessary barriers — and turn it into something usable.",
+      "body2": "Labs, games, draw-and-color sheets and quizzes are part of our social role: bringing knowledge closer to anyone who wants to study, with open access and the same care we put into a product or a website.",
+      "cta": "Explore education"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Projects, quotes and partnerships",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We will reply to your email shortly.",
+      "successDemo": "Demo: your message was not actually sent. Configure SMTP on the server.",
+      "error": "Could not send right now. Please try again or email contato@semtalentostudio.com.br directly.",
+      "demoNote": "Form waiting for SMTP configuration on the server (.env.local).",
+      "placeholder": {
+        "name": "Your name",
+        "email": "you@email.com",
+        "subject": "Quote, partnership, question...",
+        "message": "Tell us about your project..."
+      }
+    },
+    "channels": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "youtube": "YouTube"
+    },
+    "whatsappNote": "Business WhatsApp coming soon",
+    "whatsappCta": "Chat on WhatsApp",
+    "emailNote": "Professional email is not set up yet. The link below will work after Zoho Mail is configured."
+  },
+  "footer": {
+    "tagline": "Extract ideas and turn them into solutions — from concept to product, physical to digital.",
+    "rights": "All rights reserved.",
+    "menu": "Menu",
+    "links": "Links",
+    "privacy": "Privacy"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Labs, games, and sheets to draw and color — learn by doing."
+  },
+  "stlModels": {
+    "search": "Search models…",
+    "free": "Free",
+    "paid": "Paid",
+    "buyDemo": "Buy (demo)",
+    "unlockDemo": "Downloads unlocked for this session (demo payment).",
+    "license": "CC0",
+    "download": "Download",
+    "files": "STL files",
+    "source": "Original source",
+    "demoCheckoutTitle": "Demo checkout",
+    "demoCheckoutNote": "Symbolic / demo payment — no real charge.",
+    "confirmDemo": "Confirm demo payment",
+    "close": "Close",
+    "all": "All",
+    "filterFree": "Free",
+    "filterPaid": "Paid",
+    "empty": "No models found.",
+    "usd": "US$",
+    "filesComingSoon": "STL files go live in the next step (heavy-file hosting). The catalog stays visible; downloads coming soon."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "subtitle": "How we handle your data on this site.",
+    "intro": "SemTalento Studio respects your privacy. This page explains in plain language what we collect and why.",
+    "collectTitle": "What we collect",
+    "collectBody": "Via the contact form: name, email, subject and message — only to reply to you. Data goes to our contato@ mailbox (Zoho Mail). We do not sell lists and do not require an account to use free tools.",
+    "toolsTitle": "In-browser tools",
+    "toolsBody": "Some features (such as the quiz simulator) may store history only on your device. That data does not go to our servers. Clearing browser data deletes that history.",
+    "contactTitle": "Questions",
+    "contactBody": "To request access, correction or deletion of data sent via the form, email",
+    "contactLink": "Go to Contact"
+  }
+}

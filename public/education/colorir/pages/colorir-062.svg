@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<rect width="794" height="1123" fill="#fff"/>
+<line x1="50" y1="80" x2="120" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="80" x2="744" y2="80" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="50" y1="1043" x2="120" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="674" y1="1043" x2="744" y2="1043" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><g><rect x="287" y="534" width="220" height="77" rx="18" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M 320 534 L 358.5 479 L 446.5 479 L 490.5 534" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="336.5" y="490" width="38.5" height="35.2" rx="4" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="402.5" y="490" width="44" height="35.2" rx="4" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="336.5" cy="611" r="30.800000000000004" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="457.5" cy="611" r="30.800000000000004" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="sts-complete-footer" font-family="Arial, Helvetica, sans-serif" fill="#555" text-anchor="middle">
+  <text x="397" y="1008" font-size="14">Completar e colorir</text>
+  <text x="397" y="1028" font-size="13">Complete and color</text>
+  <text x="397" y="1048" font-size="13">Completar y colorear</text>
+  <text x="397" y="1068" font-size="13">完成并涂色</text>
+</g>
+</svg>

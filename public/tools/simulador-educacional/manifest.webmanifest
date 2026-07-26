@@ -1,0 +1,19 @@
+{
+  "name": "Simulador Educacional",
+  "short_name": "Simulador",
+  "description": "Simulados de multipla escolha por pais, ano e disciplina, com nota, explicacoes e historico local.",
+  "start_url": "/tools/simulador-educacional/",
+  "scope": "/tools/simulador-educacional/",
+  "display": "standalone",
+  "background_color": "#1a100c",
+  "theme_color": "#1a100c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

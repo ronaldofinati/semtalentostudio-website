@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" role="img" aria-label="Educacao">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="50%" stop-color="#221810"/>
+      <stop offset="100%" stop-color="#0e0b09"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0c391"/>
+      <stop offset="100%" stop-color="#c8a96e"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe6"/>
+      <stop offset="100%" stop-color="#e8dfd0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#c8a96e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c8a96e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <ellipse cx="480" cy="280" rx="420" ry="260" fill="url(#glow)"/>
+
+  <!-- subtle dots -->
+  <g fill="#c8a96e" opacity="0.07">
+    <circle cx="70" cy="80" r="3"/><circle cx="140" cy="180" r="2"/><circle cx="90" cy="520" r="2.5"/>
+    <circle cx="880" cy="100" r="2.5"/><circle cx="820" cy="480" r="3"/><circle cx="740" cy="560" r="2"/>
+  </g>
+
+  <!-- coloring page sheet -->
+  <g transform="translate(78 120) rotate(-8)">
+    <rect x="0" y="0" width="220" height="280" rx="14" fill="url(#paper)" stroke="#c4b8a8" stroke-width="3"/>
+    <circle cx="110" cy="110" r="48" fill="none" stroke="#2a2218" stroke-width="3.5"/>
+    <ellipse cx="92" cy="98" rx="5" ry="5" fill="none" stroke="#2a2218" stroke-width="2.5"/>
+    <ellipse cx="128" cy="98" rx="5" ry="5" fill="none" stroke="#2a2218" stroke-width="2.5"/>
+    <path d="M92 128 Q110 142 128 128" fill="none" stroke="#2a2218" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="70" cy="190" r="14" fill="none" stroke="#c87a3a" stroke-width="4" opacity="0.85"/>
+    <circle cx="130" cy="210" r="12" fill="none" stroke="#3a8fd6" stroke-width="4" opacity="0.85"/>
+    <circle cx="160" cy="170" r="10" fill="none" stroke="#4caf71" stroke-width="4" opacity="0.85"/>
+  </g>
+
+  <!-- quiz card -->
+  <g transform="translate(300 150) rotate(4)">
+    <rect x="0" y="0" width="300" height="210" rx="16" fill="#241611" stroke="url(#gold)" stroke-width="2.5"/>
+    <path d="M70 70 Q70 38 100 38 Q130 38 130 62 Q130 82 110 90 Q100 95 100 112"
+          fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="100" cy="138" r="7" fill="url(#gold)"/>
+    <g transform="translate(160 48)">
+      <rect x="0" y="0" width="110" height="28" rx="8" fill="#c8a96e" fill-opacity="0.12" stroke="#c8a96e" stroke-opacity="0.35"/>
+      <rect x="0" y="42" width="110" height="28" rx="8" fill="#c8a96e" fill-opacity="0.22" stroke="url(#gold)" stroke-width="1.8"/>
+      <rect x="0" y="84" width="110" height="28" rx="8" fill="#c8a96e" fill-opacity="0.12" stroke="#c8a96e" stroke-opacity="0.35"/>
+    </g>
+  </g>
+
+  <!-- chemistry flask -->
+  <g transform="translate(640 130)">
+    <path d="M78 20 h36 v70 c48 28 68 70 68 118 0 62-46 112-86 112s-86-50-86-112c0-48 20-90 68-118z"
+          fill="#1c1612" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M54 176 c10 36 36 58 62 58s52-22 62-58" fill="#3d8f7a" opacity="0.55"/>
+    <circle cx="86" cy="168" r="6" fill="#9ad4c2" opacity="0.7"/>
+    <circle cx="118" cy="186" r="4" fill="#9ad4c2" opacity="0.55"/>
+    <circle cx="100" cy="152" r="3.5" fill="#e0c391" opacity="0.5"/>
+  </g>
+
+  <!-- chess knight silhouette -->
+  <g transform="translate(700 360)" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linejoin="round">
+    <path d="M20 120 h90 c0-18-8-28-22-28 h-12 c4-22 18-40 18-58 0-10-6-18-16-18 -8 0-12 6-18 6 -14-18-34-10-34 8 0 22 16 36 28 52 l-22 10 c-8 4-12 12-12 22z" fill="#1a1410"/>
+  </g>
+
+  <!-- open book base -->
+  <g transform="translate(180 430)">
+    <path d="M0 40 Q160 -10 300 40 L300 90 Q160 50 0 90 Z" fill="#2a1f16" stroke="#c8a96e" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M300 40 Q440 -10 600 40 L600 90 Q440 50 300 90 Z" fill="#241911" stroke="#c8a96e" stroke-opacity="0.45" stroke-width="2"/>
+    <line x1="300" y1="40" x2="300" y2="90" stroke="#e0c391" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+</svg>
