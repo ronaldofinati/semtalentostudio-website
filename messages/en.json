@@ -738,7 +738,7 @@
     "subtitle": "How we handle your data on this site.",
     "intro": "SemTalento Studio respects your privacy. This page explains in plain language what we collect and why.",
     "collectTitle": "What we collect",
-    "collectBody": "Via the contact form: name, email, subject and message — only to reply to you. Data goes to our contato@ mailbox (Zoho Mail). We do not sell lists and do not require an account to use free tools.",
+    "collectBody": "Via the contact form: name, email, subject and message — only to reply to you. Data goes to our contato@ mailbox (Zoho Mail). We also use private Vercel analytics (page visits, no ad networks and no account required from you). We do not sell lists and do not require an account to use free tools.",
     "toolsTitle": "In-browser tools",
     "toolsBody": "Some features (such as the quiz simulator) may store history only on your device. That data does not go to our servers. Clearing browser data deletes that history.",
     "contactTitle": "Questions",

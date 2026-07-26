@@ -738,7 +738,7 @@
     "subtitle": "Como tratamos seus dados neste site.",
     "intro": "A SemTalento Studio respeita sua privacidade. Esta página explica, em linguagem simples, o que coletamos e para quê.",
     "collectTitle": "O que coletamos",
-    "collectBody": "Pelo formulário de contato: nome, e-mail, assunto e mensagem — apenas para responder você. Esses dados vão para nossa caixa contato@ (Zoho Mail). Não vendemos listas e não fazemos cadastro obrigatório para usar as ferramentas gratuitas.",
+    "collectBody": "Pelo formulário de contato: nome, e-mail, assunto e mensagem — apenas para responder você. Esses dados vão para nossa caixa contato@ (Zoho Mail). Também usamos analytics privado da Vercel (visitas de página, sem anunciantes e sem cadastro seu). Não vendemos listas e não fazemos cadastro obrigatório para usar as ferramentas gratuitas.",
     "toolsTitle": "Ferramentas no navegador",
     "toolsBody": "Alguns recursos (como o Simulado) podem guardar histórico só no seu aparelho. Isso não vai para nossos servidores. Limpar dados do navegador apaga esse histórico.",
     "contactTitle": "Dúvidas",

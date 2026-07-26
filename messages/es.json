@@ -738,7 +738,7 @@
     "subtitle": "Cómo tratamos tus datos en este sitio.",
     "intro": "SemTalento Studio respeta tu privacidad. Esta página explica en lenguaje simple qué recopilamos y para qué.",
     "collectTitle": "Qué recopilamos",
-    "collectBody": "Por el formulario de contacto: nombre, correo, asunto y mensaje — solo para responderte. Esos datos van a nuestra casilla contato@ (Zoho Mail). No vendemos listas y no exigimos registro para usar las herramientas gratuitas.",
+    "collectBody": "Por el formulario de contacto: nombre, correo, asunto y mensaje — solo para responderte. Esos datos van a nuestra casilla contato@ (Zoho Mail). También usamos analytics privado de Vercel (visitas de página, sin anunciantes y sin registro tuyo). No vendemos listas y no exigimos registro para usar las herramientas gratuitas.",
     "toolsTitle": "Herramientas en el navegador",
     "toolsBody": "Algunos recursos (como el simulador) pueden guardar historial solo en tu dispositivo. Eso no llega a nuestros servidores. Borrar los datos del navegador elimina ese historial.",
     "contactTitle": "Dudas",

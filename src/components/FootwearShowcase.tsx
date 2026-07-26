@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState, type TouchEvent } from "react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/Button";
 import { cn } from "@/lib/utils";
@@ -30,6 +30,40 @@ type LightboxProps = {
   onChange: (index: number) => void;
 };
 
+const SWIPE_THRESHOLD_PX = 48;
+
+/** Swipe horizontal; retorna true se foi swipe (para não abrir zoom no toque). */
+function useHorizontalSwipe(onSwipe: (delta: -1 | 1) => void) {
+  const startX = useRef<number | null>(null);
+  const startY = useRef<number | null>(null);
+  const swiped = useRef(false);
+
+  return {
+    didSwipe: () => swiped.current,
+    resetSwipe: () => {
+      swiped.current = false;
+    },
+    onTouchStart: (event: TouchEvent) => {
+      const touch = event.touches[0];
+      startX.current = touch.clientX;
+      startY.current = touch.clientY;
+      swiped.current = false;
+    },
+    onTouchEnd: (event: TouchEvent) => {
+      if (startX.current == null || startY.current == null) return;
+      const touch = event.changedTouches[0];
+      const dx = touch.clientX - startX.current;
+      const dy = touch.clientY - startY.current;
+      startX.current = null;
+      startY.current = null;
+
+      if (Math.abs(dx) < SWIPE_THRESHOLD_PX || Math.abs(dx) < Math.abs(dy)) return;
+      swiped.current = true;
+      onSwipe(dx < 0 ? 1 : -1);
+    },
+  };
+}
+
 function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProps) {
   const t = useTranslations("common");
   const hasMultiple = images.length > 1;
@@ -40,6 +74,10 @@ function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProp
     },
     [images.length, index, onChange],
   );
+
+  const swipe = useHorizontalSwipe((delta) => {
+    if (hasMultiple) go(delta);
+  });
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -59,16 +97,18 @@ function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProp
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm sm:p-8"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-3 backdrop-blur-sm sm:p-8"
       role="dialog"
       aria-modal="true"
       aria-label={t("zoomImage")}
       onClick={onClose}
+      onTouchStart={swipe.onTouchStart}
+      onTouchEnd={swipe.onTouchEnd}
     >
       <button
         type="button"
         onClick={onClose}
-        className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80"
+        className="absolute right-3 top-3 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80 sm:right-4 sm:top-4"
         aria-label={t("closeZoom")}
       >
         ×
@@ -82,7 +122,7 @@ function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProp
               event.stopPropagation();
               go(-1);
             }}
-            className="absolute left-3 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80 sm:left-6"
+            className="absolute left-4 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80 sm:flex"
             aria-label={t("previousImage")}
           >
             ‹
@@ -93,7 +133,7 @@ function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProp
               event.stopPropagation();
               go(1);
             }}
-            className="absolute right-3 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80 sm:right-6"
+            className="absolute right-4 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/60 text-xl text-text transition-colors hover:border-accent/40 hover:bg-black/80 sm:flex"
             aria-label={t("nextImage")}
           >
             ›
@@ -102,7 +142,7 @@ function ImageLightbox({ images, index, title, onClose, onChange }: LightboxProp
       )}
 
       <div
-        className="relative h-[min(85vh,900px)] w-full max-w-6xl"
+        className="relative h-[min(78vh,900px)] w-full max-w-6xl"
         onClick={(event) => event.stopPropagation()}
       >
         <Image
@@ -140,24 +180,38 @@ function ProductCard({
     setIndex((current) => (current + delta + images.length) % images.length);
   };
 
+  const swipe = useHorizontalSwipe((delta) => {
+    if (hasMultiple) go(delta);
+  });
+
   return (
     <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#0d0d0d]">
+      <div
+        className="relative aspect-[5/4] w-full overflow-hidden bg-[#0d0d0d] sm:aspect-[4/3]"
+        onTouchStart={swipe.onTouchStart}
+        onTouchEnd={swipe.onTouchEnd}
+      >
         <button
           type="button"
-          onClick={() => setLightboxOpen(true)}
-          className="group absolute inset-0 z-0 cursor-zoom-in"
+          onClick={() => {
+            if (swipe.didSwipe()) {
+              swipe.resetSwipe();
+              return;
+            }
+            setLightboxOpen(true);
+          }}
+          className="group absolute inset-0 z-0 cursor-zoom-in touch-pan-y"
           aria-label={t("zoomImage")}
         >
           <Image
             src={images[index]}
             alt={product.title}
             fill
-            className="object-contain p-4 transition-opacity duration-300"
+            className="object-contain p-2 transition-opacity duration-300 sm:p-4"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority={index === 0}
           />
-          <span className="pointer-events-none absolute bottom-3 right-3 rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
+          <span className="pointer-events-none absolute bottom-3 right-3 hidden rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 sm:inline-block">
             {t("zoomHint")}
           </span>
         </button>
@@ -167,7 +221,7 @@ function ProductCard({
             <button
               type="button"
               onClick={() => go(-1)}
-              className="absolute left-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/50 text-lg text-text backdrop-blur-sm transition-colors hover:border-accent/40 hover:bg-black/70"
+              className="absolute left-2 top-1/2 z-10 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/50 text-lg text-text backdrop-blur-sm transition-colors hover:border-accent/40 hover:bg-black/70 sm:flex"
               aria-label={t("previousImage")}
             >
               ‹
@@ -175,12 +229,12 @@ function ProductCard({
             <button
               type="button"
               onClick={() => go(1)}
-              className="absolute right-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/50 text-lg text-text backdrop-blur-sm transition-colors hover:border-accent/40 hover:bg-black/70"
+              className="absolute right-2 top-1/2 z-10 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/50 text-lg text-text backdrop-blur-sm transition-colors hover:border-accent/40 hover:bg-black/70 sm:flex"
               aria-label={t("nextImage")}
             >
               ›
             </button>
-            <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-1.5">
+            <div className="absolute bottom-2 left-1/2 z-10 flex -translate-x-1/2 gap-1.5 sm:bottom-3">
               {images.map((_, i) => (
                 <button
                   key={i}
@@ -265,7 +319,7 @@ function CollectionProductCard({
 
   return (
     <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
-      <div className="relative aspect-[21/10] w-full overflow-hidden bg-[#12100f]">
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
         <button
           type="button"
           onClick={() => setLightboxOpen(true)}
@@ -276,11 +330,11 @@ function CollectionProductCard({
             src={images[index]}
             alt={product.title}
             fill
-            className="object-contain p-3 transition-opacity duration-300 sm:p-5"
+            className="object-contain p-2 transition-opacity duration-300 sm:p-5"
             sizes="100vw"
             priority
           />
-          <span className="pointer-events-none absolute bottom-4 right-4 rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
+          <span className="pointer-events-none absolute bottom-4 right-4 hidden rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 sm:inline-block">
             {t("zoomHint")}
           </span>
         </button>
@@ -358,7 +412,7 @@ function PairProductCard({
 
   return (
     <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
-      <div className="relative aspect-[21/10] w-full overflow-hidden bg-[#12100f]">
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
         <button
           type="button"
           onClick={() => setLightboxOpen(true)}
@@ -369,11 +423,11 @@ function PairProductCard({
             src={images[index]}
             alt={product.title}
             fill
-            className="object-contain p-3 transition-opacity duration-300 sm:p-5"
+            className="object-contain p-2 transition-opacity duration-300 sm:p-5"
             sizes="100vw"
             priority
           />
-          <span className="pointer-events-none absolute bottom-4 right-4 rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
+          <span className="pointer-events-none absolute bottom-4 right-4 hidden rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-xs text-text-muted opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 sm:inline-block">
             {t("zoomHint")}
           </span>
         </button>
