@@ -185,9 +185,9 @@ function ProductCard({
   });
 
   return (
-    <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
+    <article className="card-shine w-full min-w-0 max-w-full overflow-hidden rounded-2xl border border-border bg-surface-elevated">
       <div
-        className="relative aspect-[5/4] w-full overflow-hidden bg-[#0d0d0d] sm:aspect-[4/3]"
+        className="relative aspect-[5/4] w-full min-w-0 overflow-hidden bg-[#0d0d0d] sm:aspect-[4/3]"
         onTouchStart={swipe.onTouchStart}
         onTouchEnd={swipe.onTouchEnd}
       >
@@ -254,7 +254,7 @@ function ProductCard({
       </div>
 
       {hasMultiple && images.length <= 7 && (
-        <div className="flex gap-2 overflow-x-auto border-t border-border/60 bg-surface px-3 py-2">
+        <div className="flex max-w-full gap-2 overflow-x-auto overscroll-x-contain border-t border-border/60 bg-surface px-3 py-2">
           {images.map((src, i) => (
             <button
               key={src}
@@ -318,8 +318,8 @@ function CollectionProductCard({
   const thumbnails = images.slice(1);
 
   return (
-    <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
+    <article className="card-shine w-full min-w-0 max-w-full overflow-hidden rounded-2xl border border-border bg-surface-elevated">
+      <div className="relative aspect-[4/3] w-full min-w-0 overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
         <button
           type="button"
           onClick={() => setLightboxOpen(true)}
@@ -354,7 +354,7 @@ function CollectionProductCard({
                 setLightboxOpen(true);
               }}
               className={cn(
-                "group/tile flex flex-col gap-2 text-left transition-all",
+                "group/tile min-w-0 flex flex-col gap-2 text-left transition-all",
                 imageIndex === index && "opacity-100",
                 imageIndex !== index && "opacity-75 hover:opacity-100",
               )}
@@ -411,8 +411,8 @@ function PairProductCard({
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
   return (
-    <article className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated">
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
+    <article className="card-shine w-full min-w-0 max-w-full overflow-hidden rounded-2xl border border-border bg-surface-elevated">
+      <div className="relative aspect-[4/3] w-full min-w-0 overflow-hidden bg-[#12100f] sm:aspect-[21/10]">
         <button
           type="button"
           onClick={() => setLightboxOpen(true)}
@@ -444,7 +444,7 @@ function PairProductCard({
               setLightboxOpen(true);
             }}
             className={cn(
-              "group/tile flex flex-col gap-2 text-left transition-all",
+              "group/tile min-w-0 flex flex-col gap-2 text-left transition-all",
               i === index && "opacity-100",
               i !== index && "opacity-75 hover:opacity-100",
             )}
@@ -495,14 +495,14 @@ export function FootwearShowcase({
   imagesById,
 }: FootwearShowcaseProps) {
   return (
-    <section className="mt-12 space-y-8">
+    <section className="mt-12 w-full min-w-0 space-y-8">
       <div>
         <h2 className="font-display text-xl font-semibold text-text">{title}</h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-text-muted">{subtitle}</p>
         <div className="accent-line mt-4" />
       </div>
 
-      <ul className="grid gap-8 lg:grid-cols-2">
+      <ul className="grid w-full min-w-0 gap-8 lg:grid-cols-2">
         {products.map((product) => {
           const images = imagesById[product.id];
           if (!images?.length) return null;
@@ -511,6 +511,7 @@ export function FootwearShowcase({
             <li
               key={product.id}
               className={cn(
+                "min-w-0",
                 (product.layout === "pair" || product.layout === "collection") && "lg:col-span-2",
               )}
             >

@@ -340,7 +340,7 @@ function MobileNav() {
   return (
     <nav className="border-t border-border/40 md:hidden" aria-label="Principal mobile">
       {/* Overflow só na fileira de pills — o submenu fica fora e não é cortado. */}
-      <div className="flex gap-1 overflow-x-auto px-4 py-2">
+      <div className="flex max-w-full gap-1 overflow-x-auto overscroll-x-contain px-4 py-2">
         {navItems.map((item) => {
           if (!item.children?.length) {
             return (

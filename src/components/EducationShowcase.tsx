@@ -76,24 +76,34 @@ export function EducationShowcase() {
   }
 
   return (
-    <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
-      <ImagensColorirSection
-        onOpenChange={(open) => setTool(open ? "imagens-colorir" : null)}
-      />
-      <SimuladorEducacionalSection
-        onOpenChange={(open) =>
-          setTool(open ? "simulador-educacional" : null)
-        }
-      />
-      <QuimicaLabSection
-        onOpenChange={(open) => setTool(open ? "quimica-lab" : null)}
-      />
-      <JogoDamasSection
-        onOpenChange={(open) => setTool(open ? "jogo-damas" : null)}
-      />
-      <JogoXadrezSection
-        onOpenChange={(open) => setTool(open ? "jogo-xadrez" : null)}
-      />
+    <div className="grid min-w-0 auto-rows-fr gap-6 sm:grid-cols-2">
+      <div className="min-w-0">
+        <ImagensColorirSection
+          onOpenChange={(open) => setTool(open ? "imagens-colorir" : null)}
+        />
+      </div>
+      <div className="min-w-0">
+        <SimuladorEducacionalSection
+          onOpenChange={(open) =>
+            setTool(open ? "simulador-educacional" : null)
+          }
+        />
+      </div>
+      <div className="min-w-0">
+        <QuimicaLabSection
+          onOpenChange={(open) => setTool(open ? "quimica-lab" : null)}
+        />
+      </div>
+      <div className="min-w-0">
+        <JogoDamasSection
+          onOpenChange={(open) => setTool(open ? "jogo-damas" : null)}
+        />
+      </div>
+      <div className="min-w-0">
+        <JogoXadrezSection
+          onOpenChange={(open) => setTool(open ? "jogo-xadrez" : null)}
+        />
+      </div>
     </div>
   );
 }

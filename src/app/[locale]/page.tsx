@@ -75,15 +75,17 @@ function HomeContent() {
           title={t("featured.title")}
           subtitle={t("featured.subtitle")}
         />
-        <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
+        <div className="grid min-w-0 auto-rows-fr gap-6 sm:grid-cols-2">
           {featured.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
+            <div key={project.slug} className="min-w-0">
+              <ProjectCard project={project} />
+            </div>
           ))}
 
           <Link
             href="/ferramentas"
             prefetch={false}
-            className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
+            className="group flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
           >
             <div
               className={cn(

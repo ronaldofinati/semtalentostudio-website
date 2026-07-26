@@ -20,11 +20,13 @@ function ProjectsContent() {
   const projects = getPortfolioProjects();
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="mx-auto w-full min-w-0 max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
       <SectionHeader title={t("title")} subtitle={t("subtitle")} />
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid min-w-0 gap-6 sm:grid-cols-2">
         {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
+          <div key={project.slug} className="min-w-0">
+            <ProjectCard project={project} />
+          </div>
         ))}
       </div>
     </div>

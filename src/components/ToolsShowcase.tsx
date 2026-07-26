@@ -76,12 +76,16 @@ export function ToolsShowcase({ toolProjects }: ToolsShowcaseProps) {
             {t("sections.software.subtitle")}
           </p>
         </div>
-        <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
-          <SizeGuideSection
-            onOpenChange={(open) => setTool(open ? "size-guide" : null)}
-          />
+        <div className="grid min-w-0 auto-rows-fr gap-6 sm:grid-cols-2">
+          <div className="min-w-0">
+            <SizeGuideSection
+              onOpenChange={(open) => setTool(open ? "size-guide" : null)}
+            />
+          </div>
           {softwareProjects.map((project) => (
-            <ProjectCard key={project.slug} project={project} didactic />
+            <div key={project.slug} className="min-w-0">
+              <ProjectCard project={project} didactic />
+            </div>
           ))}
         </div>
       </section>
@@ -98,33 +102,39 @@ export function ToolsShowcase({ toolProjects }: ToolsShowcaseProps) {
             {t("sections.utilities.subtitle")}
           </p>
         </div>
-        <div className="grid auto-rows-fr gap-6 sm:grid-cols-2">
+        <div className="grid min-w-0 auto-rows-fr gap-6 sm:grid-cols-2">
           {utilityProjects.map((project) => (
-            <ProjectCard key={project.slug} project={project} didactic />
+            <div key={project.slug} className="min-w-0">
+              <ProjectCard project={project} didactic />
+            </div>
           ))}
-          <ShowcaseCard
-            id="converter"
-            title={t("coming.converter.title")}
-            description={t("coming.converter.description")}
-            category={t("coming.converter.category")}
-            gradient="from-sky-900/25 to-surface-muted"
-            initial="C"
-            introTitle={t("coming.converter.introTitle")}
-            introBody={t("coming.converter.introBody")}
-            introContinue={t("coming.converter.introContinue")}
-            introClose={t("coming.converter.introClose")}
-          />
-          <ShowcaseCard
-            title={t("coming.plugins.title")}
-            description={t("coming.plugins.description")}
-            category={t("coming.plugins.category")}
-            gradient="from-violet-900/25 to-surface-muted"
-            initial="P"
-            introTitle={t("coming.plugins.introTitle")}
-            introBody={t("coming.plugins.introBody")}
-            introContinue={t("coming.plugins.introContinue")}
-            introClose={t("coming.plugins.introClose")}
-          />
+          <div className="min-w-0">
+            <ShowcaseCard
+              id="converter"
+              title={t("coming.converter.title")}
+              description={t("coming.converter.description")}
+              category={t("coming.converter.category")}
+              gradient="from-sky-900/25 to-surface-muted"
+              initial="C"
+              introTitle={t("coming.converter.introTitle")}
+              introBody={t("coming.converter.introBody")}
+              introContinue={t("coming.converter.introContinue")}
+              introClose={t("coming.converter.introClose")}
+            />
+          </div>
+          <div className="min-w-0">
+            <ShowcaseCard
+              title={t("coming.plugins.title")}
+              description={t("coming.plugins.description")}
+              category={t("coming.plugins.category")}
+              gradient="from-violet-900/25 to-surface-muted"
+              initial="P"
+              introTitle={t("coming.plugins.introTitle")}
+              introBody={t("coming.plugins.introBody")}
+              introContinue={t("coming.plugins.introContinue")}
+              introClose={t("coming.plugins.introClose")}
+            />
+          </div>
         </div>
       </section>
     </div>

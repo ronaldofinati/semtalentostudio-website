@@ -58,7 +58,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <NavigationCleanup />
           <Header />
-          <main>{children}</main>
+          <main className="min-w-0 overflow-x-clip">{children}</main>
           <Footer />
           <Analytics />
         </NextIntlClientProvider>

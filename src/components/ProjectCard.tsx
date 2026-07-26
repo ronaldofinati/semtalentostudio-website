@@ -95,7 +95,7 @@ export function ProjectCard({ project, href, didactic = false }: ProjectCardProp
         <button
           type="button"
           onClick={() => setIntroOpen(true)}
-          className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated text-left card-shine transition-all duration-300"
+          className="group flex h-full w-full min-w-0 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated text-left card-shine transition-all duration-300"
         >
           {media}
           {body}
@@ -120,7 +120,7 @@ export function ProjectCard({ project, href, didactic = false }: ProjectCardProp
     <Link
       href={target}
       prefetch={false}
-      className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
+      className="group flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
     >
       {media}
       {body}
@@ -203,7 +203,7 @@ export function ShowcaseCard({
           type="button"
           id={id}
           onClick={() => setIntroOpen(true)}
-          className="group flex h-full w-full scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated text-left card-shine transition-all duration-300"
+          className="group flex h-full w-full min-w-0 scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated text-left card-shine transition-all duration-300"
         >
           {inner}
         </button>
@@ -228,7 +228,7 @@ export function ShowcaseCard({
       id={id}
       href={href}
       prefetch={false}
-      className="group flex h-full scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
+      className="group flex h-full min-w-0 scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-border bg-surface-elevated card-shine transition-all duration-300"
     >
       {inner}
     </Link>

@@ -101,7 +101,7 @@ function ProjectDetail({ slug }: { slug: string }) {
   const hasInflatableGallery = showInflatableGallery && inflatableProducts.length > 0;
 
   return (
-    <article className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+    <article className="mx-auto w-full min-w-0 max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <Link
         href="/projetos"
         className="mb-8 inline-flex text-sm text-text-muted transition-colors hover:text-text"
@@ -175,7 +175,7 @@ function ProjectDetail({ slug }: { slug: string }) {
                 </h3>
                 <span className="h-px flex-1 bg-gradient-to-l from-accent/50 to-transparent" />
               </div>
-              <ul className="grid gap-6 sm:grid-cols-2">
+              <ul className="grid min-w-0 gap-6 sm:grid-cols-2">
                 {group.examples.map((example, exampleIndex) => {
                   const image =
                     slug === "web-design"
@@ -185,7 +185,7 @@ function ProjectDetail({ slug }: { slug: string }) {
                   return (
                     <li
                       key={example.title}
-                      className="card-shine overflow-hidden rounded-2xl border border-border bg-surface-elevated"
+                      className="card-shine min-w-0 overflow-hidden rounded-2xl border border-border bg-surface-elevated"
                     >
                       {image && (
                         <div className="relative aspect-[3/2] w-full">
