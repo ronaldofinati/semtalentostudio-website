@@ -4,7 +4,11 @@ Portfolio multilingue da SemTalento Studio.
 
 ## Publicar o site (comece aqui)
 
-Siga o plano completo: **[docs/GO-LIVE.md](docs/GO-LIVE.md)**
+Plano e **status atual**: **[docs/GO-LIVE.md](docs/GO-LIVE.md)**
+
+- Site: https://semtalentostudio.com.br/pt  
+- STLs (R2): **[docs/stl-r2.md](docs/stl-r2.md)**  
+- Pendente: redirect `.com` → `.com.br`
 
 ## Desenvolvimento local
 
@@ -20,6 +24,7 @@ Ou execute `iniciar.bat`. Abra http://localhost:3000 (redireciona para /pt).
 
 - `/pt` — Home
 - `/pt/projetos` — Portfolio
+- `/pt/projetos/3d-models` — Biblioteca STL
 - `/pt/ferramentas` — Ferramentas
 - `/pt/educacao` — Educacao
 - `/pt/conteudo` — YouTube
@@ -37,7 +42,8 @@ Ver **[docs/ASSETS.md](docs/ASSETS.md)** — `D:\Sem Talento Studio\Assets` via 
 
 | Arquivo | Conteudo |
 |---------|----------|
-| [docs/GO-LIVE.md](docs/GO-LIVE.md) | **Plano para publicar (passo a passo)** |
+| [docs/GO-LIVE.md](docs/GO-LIVE.md) | **Status go-live + historico + pendencias** |
+| [docs/stl-r2.md](docs/stl-r2.md) | Cloudflare R2 / sync STL |
 | [docs/email-setup.md](docs/email-setup.md) | Zoho Mail + SMTP |
 | [docs/infra-identidade.md](docs/infra-identidade.md) | Dominio, e-mail, WhatsApp |
 | [docs/presenca-marca.md](docs/presenca-marca.md) | Marca e redes |

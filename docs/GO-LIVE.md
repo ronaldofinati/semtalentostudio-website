@@ -1,247 +1,169 @@
 # Plano GO-LIVE — SemTalento Studio
 
-**Objetivo:** site no ar em `https://semtalentostudio.com.br`, estável, com contato funcionando e analytics privado.
+**Objetivo:** site no ar em `https://semtalentostudio.com.br`, estável, com contato, analytics e STLs.
 
-**Como usar este documento:** siga as fases na ordem. Em cada passo há **Você faz** e **Eu (assistente) faço**. Não pule fases.
-
-Atualizado: 2026-07-26.
+Atualizado: **2026-07-26** (noite) — go-live principal concluído; pendências amanhã.
 
 ---
 
-## Mapa mental (visão geral)
-
-```
-1. Repo Git + GitHub
-2. Decisão dos arquivos pesados (Modelos 3D ~1,8 GB)
-3. Conta Vercel + primeiro deploy
-4. Variáveis SMTP (Zoho) na Vercel
-5. DNS do domínio → Vercel
-6. Testes no ar (contato, mobile, ferramentas)
-7. Analytics privado
-8. Privacidade + robots + sitemap
-9. WhatsApp comercial final
-10. Checklist “100% publicado”
-```
-
----
-
-## Status atual (foto do projeto)
+## Status atual (foto)
 
 | Item | Status |
 |------|--------|
-| Site Next.js local | Pronto (`npm run dev` / `iniciar.bat`) |
-| Domínio `.com.br` | Feito (Registro.br) — ver `infra-identidade.md` |
-| Domínio `.com` | Feito (Cloudflare) |
-| Zoho Mail + `.env.local` | Variáveis existem localmente — **testar envio** |
-| Git no projeto | **Ainda não** (pasta sem `.git`) |
-| GitHub remoto | Conta existe; repo ainda não |
-| Vercel | Em criação (usuário) |
-| Contagem de acessos | **Não existe** |
-| Cadastro de usuários | Não necessário agora |
-| Página de privacidade | Feito (`/privacidade`) |
-| robots / sitemap | Feito |
-| `public/models/3d` | R2 — ver `docs/stl-r2.md` |
+| Site Next.js | No ar (Vercel) |
+| GitHub | `https://github.com/ronaldofinati/semtalentostudio-website` (user `ronaldofinati`) |
+| Vercel team | `https://vercel.com/sem-talento-studio` — Hobby |
+| Domínio `.com.br` | `https://semtalentostudio.com.br` + `www` (Registro.br → Vercel) |
+| Domínio `.com` | Na Cloudflare — **redirect → `.com.br` ainda pendente** |
+| Contato SMTP (Zoho) | OK em produção (vars na Vercel) |
+| Analytics | Vercel Web Analytics ligado |
+| Privacidade / robots / sitemap | OK |
+| STLs (~1,8 GB) | Cloudflare R2 — ver `docs/stl-r2.md` |
+| Mobile (submenus + overflow cards) | Corrigido e publicado |
+| Cadastro de usuários | Não necessário |
+
+**URLs:**
+- Produção: https://semtalentostudio.com.br/pt
+- Preview legado: https://semtalentostudio-website.vercel.app/pt
+- Modelos 3D: https://semtalentostudio.com.br/pt/projetos/3d-models
+
+---
+
+## Pendências (próxima sessão)
+
+1. **Redirect `.com` → `.com.br`** (Cloudflare, zona do `.com`)
+2. Opcional: Custom Domain R2 `files.semtalentostudio.com` (hoje usa `*.r2.dev`)
+3. Opcional: pagamento real nos STLs pagos (hoje checkout demo)
+4. Conferir WhatsApp final em `src/config/site.ts` se ainda for provisório
 
 ---
 
 ## Regra de ouro
 
-- **Nunca** envie `.env.local` / senhas para o GitHub.
-- Atualizar o site depois = eu altero o código → commit → push → Vercel publica sozinha.
-- Você não precisa virar programador: precisa de contas (GitHub, Vercel) e acesso ao Registro.br / Zoho.
+- **Nunca** enviar `.env.local` / senhas / tokens R2 para o GitHub.
+- Atualizar o site = alterar código → commit autorizado → push → Vercel publica sozinha.
+- STLs **não** vão no Git nem no deploy Vercel; sync local → R2 com `npm run sync:stl-r2`.
 
 ---
 
-## FASE 0 — Preparar o código (eu faço)
+## Fases (checklist histórico)
 
-- [x] Este plano (`docs/GO-LIVE.md`)
-- [x] Corrigir caminhos desatualizados nos docs
-- [x] `robots.ts` + `sitemap.ts`
-- [x] Página `/privacidade`
-- [x] Garantir `.gitignore` correto (`.env.local`, `Assets`, `.next`)
-- [ ] Inicializar Git (quando você autorizar o 1º commit)
+### FASE 0 — Código base
+- [x] `docs/GO-LIVE.md`, robots, sitemap, `/privacidade`
+- [x] `.gitignore` (`.env.local`, `/public/models/3d/`)
+- [x] `.vercelignore` (`public/models/3d`)
 
----
+### FASE 1 — Contas
+- [x] GitHub `ronaldofinati`
+- [x] Vercel (login GitHub) / team Sem Talento Studio
 
-## FASE 1 — Contas (você faz, eu guio)
+### FASE 2 — STLs (R2)
+- [x] Bucket `semtalento-models`
+- [x] Public Development URL (r2.dev)
+- [x] Account API Token (Object Read & Write) — só no PC
+- [x] Sync 1192 arquivos (`scripts/sync-stl-to-r2.mjs`)
+- [x] `NEXT_PUBLIC_STL_BASE_URL` na Vercel + flag `stlFilesPublished: true`
+- Detalhes: **`docs/stl-r2.md`**
 
-### 1.1 GitHub
+### FASE 3 — Deploy
+- [x] Repo GitHub + deploy Vercel Next.js
+- [x] Site abre em `*.vercel.app` e no domínio próprio
 
-**Você faz:**
-1. Crie conta em https://github.com (se não tiver).
-2. Aviso aqui: “GitHub pronto, usuário = ___”.
+### FASE 4 — SMTP produção
+- [x] Vars na Vercel: `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `CONTACT_TO`
+- [x] Valores corretos (não colar o *nome* da variável no Value)
+- [x] Host Zoho: `smtppro.zoho.com` (domínio próprio)
+- [x] Formulário `/pt/contato` envia e chega em `contato@`
+- Ver também: `docs/email-setup.md`
 
-**Eu faço depois:**
-- `git init` no projeto
-- Primeiro commit (sem segredos)
-- Criar repositório privado e push (com sua autorização)
+### FASE 5 — Domínio `.com.br`
+- [x] Domínios na Vercel: apex + www (Production; sem redirect apex→www forçado)
+- [x] DNS Registro.br (modo avançado) — **não** trocar nameservers para Vercel DNS (preserva Zoho)
 
-### 1.2 Vercel
-
-**Você faz:**
-1. Conta em https://vercel.com com o **mesmo login GitHub**.
-2. Aviso: “Vercel pronta”.
-
----
-
-## FASE 2 — Arquivos pesados (STLs)
-
-O site tem ~**1,8 GB** em `public/models/3d`. A Vercel Hobby **não** leva isso no deploy.
-
-**Decisão:** Cloudflare **R2** (site leve na Vercel; arquivos no CDN).
-
-Passo a passo: **`docs/stl-r2.md`**.
-
-Resumo:
-1. Bucket R2 + URL pública (`files.semtalentostudio.com` ou `*.r2.dev`)
-2. Sync: `node scripts/sync-stl-to-r2.mjs`
-3. Vercel env: `NEXT_PUBLIC_STL_BASE_URL`
-4. Flag `stlFilesPublished: true` (já no código)
-
----
-
-## FASE 3 — Primeiro deploy na Vercel
-
-**Eu faço (com você aprovando):**
-1. Push do código no GitHub.
-2. Importar projeto na Vercel (Framework: Next.js).
-3. Build de teste.
-4. URL temporária `*.vercel.app`.
-
-**Você faz:**
-- Confirmar no navegador que a URL temporária abre.
-
----
-
-## FASE 4 — E-mail de contato em produção
-
-**Você faz:**
-1. Confirmar Zoho Mail Lite ativo e `contato@` recebendo.
-2. Ter a senha / app password do SMTP (já usada no `.env.local`).
-
-**Eu faço:**
-1. Orientar a colar no painel Vercel → Settings → Environment Variables:
-   - `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `CONTACT_TO`
-2. Redeploy.
-3. Testar `/pt/contato` no ar.
-
-Checklist espelho: `docs/email-setup.md`.
-
----
-
-## FASE 5 — Domínio no ar
-
-**Você faz (Registro.br — modo avançado DNS):**
-
-Apontar `semtalentostudio.com.br` para a Vercel (valores exatos a Vercel mostra; tipicamente):
+Registros usados (conferir no painel se mudarem):
 
 | Tipo | Nome | Valor |
 |------|------|--------|
-| A | `@` | `76.76.21.21` (confirmar no painel Vercel) |
-| CNAME | `www` | `cname.vercel-dns.com` (confirmar no painel) |
+| A | `@` (raiz) | `216.198.79.1` |
+| CNAME | `www` | `589484c2fee2017a.vercel-dns-017.com.` |
 
-**Eu faço:**
-- Adicionar domínio no projeto Vercel.
-- Esperar SSL (cadeado HTTPS).
-- Redirect `.com` → `.com.br` (Cloudflare) se ainda não estiver.
+MX/TXT Zoho **mantidos**.
 
-**Critério de pronto:** `https://semtalentostudio.com.br/pt` abre com cadeado.
+- [ ] Redirect `.com` → `.com.br` (**pendente**)
 
----
+### FASE 6 — Testes
+- [x] Contato / domínio HTTPS
+- [x] STLs preview + download
+- [x] Mobile: submenus do header; overflow horizontal dos cards
+- [ ] Passada completa idiomas / WhatsApp / todas ferramentas (quando quiser)
 
-## FASE 6 — Testes no ar (juntos)
+### FASE 7 — Analytics
+- [x] Vercel Web Analytics Enable + `@vercel/analytics` no layout
+- [x] Texto de privacidade menciona analytics
 
-Marque comigo:
+### FASE 8 — Legal mínimo
+- [x] `/privacidade`, link rodapé, robots, sitemap
 
-- [ ] Home / projetos / educação / contato
-- [ ] Formulário envia e chega no Zoho
-- [ ] WhatsApp abre com o número certo
-- [ ] Ferramentas (simulado, jogos, QuimicaLab, colorir)
-- [ ] Mobile (Chrome no celular)
-- [ ] Idiomas pt/en/es/zh
+### FASE 9 — Fluxo de atualização
+1. Pedir mudança no chat  
+2. Código alterado  
+3. Autorizar commit  
+4. Push → Vercel (~1–2 min)  
+5. Testar URL  
 
----
-
-## FASE 7 — Analytics privado (só você vê)
-
-**Recomendação:** Vercel Analytics **ou** Cloudflare Web Analytics (grátis, sem cookies pesados).
-
-- Painel **privado** (não público no site).
-- Serve para controle e conversa com patrocínio (exportar relatório mensal).
-
-**Não** colocar contador público no lançamento.
-
----
-
-## FASE 8 — Conteúdo legal mínimo
-
-- [ ] Página `/privacidade` (LGPD básica: o que coletamos = formulário de contato)
-- [ ] Link no rodapé
-- [ ] robots + sitemap
-
----
-
-## FASE 9 — Atualizações depois do ar
-
-Fluxo padrão (toda vez que quiser melhorar algo):
-
-1. Você pede no chat (“muda X”).
-2. Eu altero o código.
-3. Você autoriza o commit.
-4. Push → Vercel publica em 1–2 minutos.
-5. Você testa a URL.
-
-**Não é complicado** quando a FASE 1–5 estiver feita uma vez.
-
----
-
-## FASE 10 — Monetização (só documentar agora)
-
-Não implementar checkout ainda. Roadmap:
-
+### FASE 10 — Monetização (roadmap)
 | Quando | O quê |
 |--------|--------|
 | Agora | Contato / WhatsApp / orçamento manual |
-| Depois | Trocar pagamento demo dos STLs por Pix/Stripe |
-| Depois | Patrocínio QuimicaLab (já tem CTA) |
-| Depois | Página “Serviços” com pacotes |
-
-Detalhes de e-mail/marca: `email-setup.md`, `presenca-marca.md`, `infra-identidade.md`.
+| Depois | Pix/Stripe nos STLs pagos |
+| Depois | Patrocínio QuimicaLab |
+| Depois | Página Serviços |
 
 ---
 
-## Cadastro de usuários?
+## Variáveis de ambiente (produção — Vercel)
 
-**Decisão:** não no lançamento. Ferramentas grátis ficam abertas.  
-Histórico do Simulado já fica **só no aparelho da pessoa** (não no seu servidor).
+| Key | Uso |
+|-----|-----|
+| `SMTP_*` + `CONTACT_TO` | Formulário de contato (Zoho) |
+| `NEXT_PUBLIC_STL_BASE_URL` | Base pública dos STLs (R2) |
 
----
+**Não** colocar `R2_ACCESS_KEY_*` / `R2_SECRET_*` na Vercel — só no `.env.local` do PC para sync.
 
-## Impedimentos conhecidos
-
-1. **Sem Git** → sem deploy fácil na Vercel.
-2. **1,8 GB de modelos** → precisa da FASE 2.
-3. **SMTP só no PC** → contato quebra no ar até colar env na Vercel.
-4. WhatsApp: conferir número final em `src/config/site.ts`.
+Modelo local: `.env.example`.
 
 ---
 
-## Próximo passo AGORA
+## Problemas resolvidos (para não repetir)
 
-Responda neste chat com estas 3 linhas (copie e complete):
-
-```
-GitHub: (não tenho / tenho, usuário = ___)
-Vercel: (não tenho / tenho)
-Modelos 3D no 1º ar: A / B / C
-```
-
-Com isso eu executo a FASE 0 restante e te pego pela mão na FASE 1.
+| Sintoma | Causa / solução |
+|---------|-----------------|
+| `SMTP_HOST` “already exists” / “branch undefined” | Var fantasma Preview; criar só Production ou apagar via CLI |
+| Contato `hostname: 'SMTP_HOST'` | Value era o texto `SMTP_HOST` — usar `smtppro.zoho.com` |
+| Submenus mobile não abriam | Dropdown cortado por `overflow-x-auto` — painel abaixo da barra |
+| Cards “largos demais” no mobile | Grid sem `min-w-0` — overflow horizontal |
+| Upload R2 SSL handshake fail | `R2_ACCOUNT_ID` com 31 chars (precisa **32**) |
+| STLs “em breve” no ar | Faltava `NEXT_PUBLIC_STL_BASE_URL` + redeploy |
 
 ---
 
-## Decisão registrada (2026-07-26)
+## Contas / caminhos
 
-- GitHub: conta existe (login hotmail informado)
-- Vercel: criar agora
-- Modelos 3D: **opção A** no 1º ar; arquivos depois com ajuda
+| O quê | Onde |
+|-------|------|
+| Código | `D:\Sem Talento Studio\Projeto Website` |
+| Assets fonte | `D:\Sem Talento Studio\Assets` (`.assets-root`) |
+| STLs locais (não no Git) | `public/models/3d` |
+| Docs e-mail | `docs/email-setup.md` |
+| Docs R2/STL | `docs/stl-r2.md` |
+| Identidade / DNS | `docs/infra-identidade.md` |
+
+---
+
+## Decisões registradas
+
+- 2026-07-26: 1º deploy **sem** STLs no Vercel; STLs depois via **R2**
+- Repo do site **separado** do CAD
+- Apex `semtalentostudio.com.br` como URL principal (não forçar www)
+- Analytics: Vercel (Hobby, painel privado)
+- Checkout STL pago: demo por enquanto
